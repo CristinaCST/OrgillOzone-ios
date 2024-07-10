@@ -1,0 +1,16 @@
+PODS:
+  - AzureNotificationHubs-iOS (3.1.5)
+
+DEPENDENCIES:
+  - AzureNotificationHubs-iOS
+
+SPEC REPOS:
+  trunk:
+    - AzureNotificationHubs-iOS
+
+SPEC CHECKSUMS:
+  AzureNotificationHubs-iOS: e5de62f44d7915a5cc3c5194ddc57cf2ee78873e
+
+PODFILE CHECKSUM: 83f8af7f242b3092cfca0ec286420f2ae0b9f394
+
+COCOAPODS: 1.15.2

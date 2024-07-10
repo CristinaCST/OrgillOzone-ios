@@ -1,0 +1,1238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B3754BAA808277694497C0 /* Pods_OZONE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E72F4A194ED4479CD37BF9 /* Pods_OZONE.framework */; };
+		B3B977D52C2BD8E9005C0F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B977D42C2BD8E9005C0F90 /* ViewController.swift */; };
+		B3D9215D2C2ADB96005A6998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9215C2C2ADB96005A6998 /* AppDelegate.swift */; };
+		B3D9215F2C2ADB96005A6998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9215E2C2ADB96005A6998 /* SceneDelegate.swift */; };
+		B3D921662C2ADB98005A6998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D921652C2ADB98005A6998 /* Assets.xcassets */; };
+		B3D921692C2ADB98005A6998 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B3D921682C2ADB98005A6998 /* Base */; };
+		B3D921742C2ADB98005A6998 /* OZONETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921732C2ADB98005A6998 /* OZONETests.swift */; };
+		B3D9217E2C2ADB98005A6998 /* OZONEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9217D2C2ADB98005A6998 /* OZONEUITests.swift */; };
+		B3D921802C2ADB98005A6998 /* OZONEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9217F2C2ADB98005A6998 /* OZONEUITestsLaunchTests.swift */; };
+		B3D921BA2C2ADDD7005A6998 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921B52C2ADDD7005A6998 /* CommonFunctions.swift */; };
+		B3D921BB2C2ADDD7005A6998 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921B62C2ADDD7005A6998 /* Constants.swift */; };
+		B3D921BC2C2ADDD7005A6998 /* UIView+frameChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921B82C2ADDD7005A6998 /* UIView+frameChanges.m */; };
+		B3D921BF2C2ADDEE005A6998 /* String+MyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921BD2C2ADDEE005A6998 /* String+MyString.swift */; };
+		B3D921F02C2ADE15005A6998 /* weatcb_notifi_tone.caf in Resources */ = {isa = PBXBuildFile; fileRef = B3D921C02C2ADE14005A6998 /* weatcb_notifi_tone.caf */; };
+		B3D921F12C2ADE15005A6998 /* ProxyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921C22C2ADE14005A6998 /* ProxyManager.swift */; };
+		B3D921F32C2ADE15005A6998 /* SplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921C42C2ADE14005A6998 /* SplaceView.swift */; };
+		B3D921F42C2ADE15005A6998 /* SplaceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D921C52C2ADE14005A6998 /* SplaceView.xib */; };
+		B3D921F52C2ADE15005A6998 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921C72C2ADE14005A6998 /* ScannerVC.swift */; };
+		B3D921F62C2ADE15005A6998 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921C82C2ADE14005A6998 /* Utils.swift */; };
+		B3D921F72C2ADE15005A6998 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921CC2C2ADE14005A6998 /* GCDWebServer.m */; };
+		B3D921F82C2ADE15005A6998 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921CE2C2ADE14005A6998 /* GCDWebServerConnection.m */; };
+		B3D921F92C2ADE15005A6998 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921D02C2ADE14005A6998 /* GCDWebServerFunctions.m */; };
+		B3D921FA2C2ADE15005A6998 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921D42C2ADE14005A6998 /* GCDWebServerRequest.m */; };
+		B3D921FB2C2ADE15005A6998 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921D62C2ADE14005A6998 /* GCDWebServerResponse.m */; };
+		B3D921FC2C2ADE15005A6998 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921D92C2ADE14005A6998 /* GCDWebServerDataRequest.m */; };
+		B3D921FD2C2ADE15005A6998 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921DB2C2ADE14005A6998 /* GCDWebServerFileRequest.m */; };
+		B3D921FE2C2ADE15005A6998 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921DD2C2ADE14005A6998 /* GCDWebServerMultiPartFormRequest.m */; };
+		B3D921FF2C2ADE15005A6998 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921DF2C2ADE14005A6998 /* GCDWebServerURLEncodedFormRequest.m */; };
+		B3D922002C2ADE15005A6998 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921E22C2ADE14005A6998 /* GCDWebServerDataResponse.m */; };
+		B3D922012C2ADE15005A6998 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921E42C2ADE14005A6998 /* GCDWebServerErrorResponse.m */; };
+		B3D922022C2ADE15005A6998 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921E62C2ADE14005A6998 /* GCDWebServerFileResponse.m */; };
+		B3D922032C2ADE15005A6998 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D921E82C2ADE14005A6998 /* GCDWebServerStreamedResponse.m */; };
+		B3D922052C2ADE15005A6998 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921ED2C2ADE15005A6998 /* NetworkManager.swift */; };
+		B3D922062C2ADE15005A6998 /* WebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D921EE2C2ADE15005A6998 /* WebServer.swift */; };
+		B3D922082C2AE1C0005A6998 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D922072C2AE1C0005A6998 /* WebKit.framework */; };
+		B3D9220C2C2AE1EF005A6998 /* WindowsAzureMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9220B2C2AE1EF005A6998 /* WindowsAzureMessaging.xcframework */; };
+		B3D922102C2AE3DE005A6998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D9220F2C2AE3DE005A6998 /* Main.storyboard */; };
+		B3DE930F2C3D613D0051BAAB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C22C3D613D0051BAAB /* manifest.json */; };
+		B3DE93102C3D613D0051BAAB /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C32C3D613D0051BAAB /* index.html */; };
+		B3DE93112C3D613D0051BAAB /* 0.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C42C3D613D0051BAAB /* 0.js */; };
+		B3DE93122C3D613D0051BAAB /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C62C3D613D0051BAAB /* main.css */; };
+		B3DE93132C3D613D0051BAAB /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C82C3D613D0051BAAB /* main.js */; };
+		B3DE93142C3D613D0051BAAB /* polyfills.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92CA2C3D613D0051BAAB /* polyfills.js */; };
+		B3DE93152C3D613D0051BAAB /* sw-toolbox.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92CB2C3D613D0051BAAB /* sw-toolbox.js */; };
+		B3DE93162C3D613D0051BAAB /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92CC2C3D613D0051BAAB /* vendor.js */; };
+		B3DE93172C3D613D0051BAAB /* service-worker.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92CF2C3D613D0051BAAB /* service-worker.js */; };
+		B3DE93182C3D613D0051BAAB /* ionicons.eot in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D02C3D613D0051BAAB /* ionicons.eot */; };
+		B3DE93192C3D613D0051BAAB /* ionicons.scss in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D12C3D613D0051BAAB /* ionicons.scss */; };
+		B3DE931A2C3D613D0051BAAB /* ionicons.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D22C3D613D0051BAAB /* ionicons.svg */; };
+		B3DE931B2C3D613D0051BAAB /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D32C3D613D0051BAAB /* ionicons.ttf */; };
+		B3DE931C2C3D613D0051BAAB /* ionicons.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D42C3D613D0051BAAB /* ionicons.woff */; };
+		B3DE931D2C3D613D0051BAAB /* ionicons.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D52C3D613D0051BAAB /* ionicons.woff2 */; };
+		B3DE931E2C3D613D0051BAAB /* noto-sans-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D62C3D613D0051BAAB /* noto-sans-bold.ttf */; };
+		B3DE931F2C3D613D0051BAAB /* noto-sans-bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D72C3D613D0051BAAB /* noto-sans-bold.woff */; };
+		B3DE93202C3D613D0051BAAB /* noto-sans-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D82C3D613D0051BAAB /* noto-sans-regular.ttf */; };
+		B3DE93212C3D613D0051BAAB /* noto-sans-regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D92C3D613D0051BAAB /* noto-sans-regular.woff */; };
+		B3DE93222C3D613D0051BAAB /* noto-sans.scss in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DA2C3D613D0051BAAB /* noto-sans.scss */; };
+		B3DE93232C3D613D0051BAAB /* roboto-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DB2C3D613D0051BAAB /* roboto-bold.ttf */; };
+		B3DE93242C3D613D0051BAAB /* roboto-bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DC2C3D613D0051BAAB /* roboto-bold.woff */; };
+		B3DE93252C3D613D0051BAAB /* roboto-bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DD2C3D613D0051BAAB /* roboto-bold.woff2 */; };
+		B3DE93262C3D613D0051BAAB /* roboto-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DE2C3D613D0051BAAB /* roboto-light.ttf */; };
+		B3DE93272C3D613D0051BAAB /* roboto-light.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DF2C3D613D0051BAAB /* roboto-light.woff */; };
+		B3DE93282C3D613D0051BAAB /* roboto-light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E02C3D613D0051BAAB /* roboto-light.woff2 */; };
+		B3DE93292C3D613D0051BAAB /* roboto-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E12C3D613D0051BAAB /* roboto-medium.ttf */; };
+		B3DE932A2C3D613D0051BAAB /* roboto-medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E22C3D613D0051BAAB /* roboto-medium.woff */; };
+		B3DE932B2C3D613D0051BAAB /* roboto-medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E32C3D613D0051BAAB /* roboto-medium.woff2 */; };
+		B3DE932C2C3D613D0051BAAB /* roboto-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E42C3D613D0051BAAB /* roboto-regular.ttf */; };
+		B3DE932D2C3D613D0051BAAB /* roboto-regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E52C3D613D0051BAAB /* roboto-regular.woff */; };
+		B3DE932E2C3D613D0051BAAB /* roboto-regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E62C3D613D0051BAAB /* roboto-regular.woff2 */; };
+		B3DE932F2C3D613D0051BAAB /* roboto.scss in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E72C3D613D0051BAAB /* roboto.scss */; };
+		B3DE93302C3D613D0051BAAB /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E92C3D613D0051BAAB /* en.json */; };
+		B3DE93312C3D613D0051BAAB /* fr.json in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92EA2C3D613D0051BAAB /* fr.json */; };
+		B3DE93322C3D613D0051BAAB /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92EC2C3D613D0051BAAB /* favicon.ico */; };
+		B3DE93332C3D613D0051BAAB /* icon-false.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92EE2C3D613D0051BAAB /* icon-false.png */; };
+		B3DE93342C3D613D0051BAAB /* icon-map.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92EF2C3D613D0051BAAB /* icon-map.png */; };
+		B3DE93352C3D613D0051BAAB /* icon-route-end.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F02C3D613D0051BAAB /* icon-route-end.png */; };
+		B3DE93362C3D613D0051BAAB /* icon-route-start.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F12C3D613D0051BAAB /* icon-route-start.png */; };
+		B3DE93372C3D613D0051BAAB /* icon-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F22C3D613D0051BAAB /* icon-truck.png */; };
+		B3DE93382C3D613D0051BAAB /* icon-true.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F32C3D613D0051BAAB /* icon-true.png */; };
+		B3DE93392C3D613D0051BAAB /* iconfinder_truck.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F42C3D613D0051BAAB /* iconfinder_truck.svg */; };
+		B3DE933A2C3D613D0051BAAB /* landing_page_cart.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F52C3D613D0051BAAB /* landing_page_cart.svg */; };
+		B3DE933B2C3D613D0051BAAB /* landing_page_catalog.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F62C3D613D0051BAAB /* landing_page_catalog.svg */; };
+		B3DE933C2C3D613D0051BAAB /* landing_page_promotions.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F72C3D613D0051BAAB /* landing_page_promotions.svg */; };
+		B3DE933D2C3D613D0051BAAB /* landing_page_scan.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F82C3D613D0051BAAB /* landing_page_scan.svg */; };
+		B3DE933E2C3D613D0051BAAB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F92C3D613D0051BAAB /* logo.png */; };
+		B3DE933F2C3D613D0051BAAB /* navbar_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FA2C3D613D0051BAAB /* navbar_background.jpg */; };
+		B3DE93402C3D613D0051BAAB /* no-deliveries.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FB2C3D613D0051BAAB /* no-deliveries.png */; };
+		B3DE93412C3D613D0051BAAB /* noun-bug-3233681.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FC2C3D613D0051BAAB /* noun-bug-3233681.png */; };
+		B3DE93422C3D613D0051BAAB /* orgill_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FD2C3D613D0051BAAB /* orgill_logo.png */; };
+		B3DE93432C3D613D0051BAAB /* Orgill-Logo-500x123.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FE2C3D613D0051BAAB /* Orgill-Logo-500x123.png */; };
+		B3DE93442C3D613D0051BAAB /* Orgill-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FF2C3D613D0051BAAB /* Orgill-Logo.png */; };
+		B3DE93452C3D613D0051BAAB /* Orgill-truck-locate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93002C3D613D0051BAAB /* Orgill-truck-locate.jpg */; };
+		B3DE93462C3D613D0051BAAB /* product_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93012C3D613D0051BAAB /* product_placeholder.png */; };
+		B3DE93472C3D613D0051BAAB /* truck-mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93022C3D613D0051BAAB /* truck-mobile.png */; };
+		B3DE93482C3D613D0051BAAB /* arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93042C3D613D0051BAAB /* arrow.svg */; };
+		B3DE93492C3D613D0051BAAB /* Dropship.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93052C3D613D0051BAAB /* Dropship.svg */; };
+		B3DE934A2C3D613D0051BAAB /* funnel.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93062C3D613D0051BAAB /* funnel.svg */; };
+		B3DE934B2C3D613D0051BAAB /* Pallet.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93072C3D613D0051BAAB /* Pallet.svg */; };
+		B3DE934C2C3D613D0051BAAB /* Planogram.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93082C3D613D0051BAAB /* Planogram.svg */; };
+		B3DE934D2C3D613D0051BAAB /* swap-vertical.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93092C3D613D0051BAAB /* swap-vertical.svg */; };
+		B3DE934E2C3D613D0051BAAB /* vendor-landing-vector.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE930A2C3D613D0051BAAB /* vendor-landing-vector.svg */; };
+		B3DE934F2C3D613D0051BAAB /* vendor-menu-vector.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE930B2C3D613D0051BAAB /* vendor-menu-vector.svg */; };
+		B3DE93502C3D613D0051BAAB /* db.sql in Resources */ = {isa = PBXBuildFile; fileRef = B3DE930D2C3D613D0051BAAB /* db.sql */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D921702C2ADB98005A6998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D921512C2ADB96005A6998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D921582C2ADB96005A6998;
+			remoteInfo = OZONE;
+		};
+		B3D9217A2C2ADB98005A6998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D921512C2ADB96005A6998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D921582C2ADB96005A6998;
+			remoteInfo = OZONE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B7FF05DC1EA88DD7DB4165 /* Pods-OZONE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZONE.debug.xcconfig"; path = "Target Support Files/Pods-OZONE/Pods-OZONE.debug.xcconfig"; sourceTree = "<group>"; };
+		18150FFDDBCB5382F0D4DB23 /* Pods-OZONE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZONE.release.xcconfig"; path = "Target Support Files/Pods-OZONE/Pods-OZONE.release.xcconfig"; sourceTree = "<group>"; };
+		80E72F4A194ED4479CD37BF9 /* Pods_OZONE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OZONE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B977D42C2BD8E9005C0F90 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = OZONE/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		B3D921592C2ADB96005A6998 /* OZONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OZONE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D9215C2C2ADB96005A6998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3D9215E2C2ADB96005A6998 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3D921652C2ADB98005A6998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3D921682C2ADB98005A6998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3D9216A2C2ADB98005A6998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D9216F2C2ADB98005A6998 /* OZONETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OZONETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D921732C2ADB98005A6998 /* OZONETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZONETests.swift; sourceTree = "<group>"; };
+		B3D921792C2ADB98005A6998 /* OZONEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OZONEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D9217D2C2ADB98005A6998 /* OZONEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZONEUITests.swift; sourceTree = "<group>"; };
+		B3D9217F2C2ADB98005A6998 /* OZONEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZONEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3D921B52C2ADDD7005A6998 /* CommonFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		B3D921B62C2ADDD7005A6998 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3D921B72C2ADDD7005A6998 /* UIView+frameChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frameChanges.h"; sourceTree = "<group>"; };
+		B3D921B82C2ADDD7005A6998 /* UIView+frameChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameChanges.m"; sourceTree = "<group>"; };
+		B3D921BD2C2ADDEE005A6998 /* String+MyString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MyString.swift"; sourceTree = "<group>"; };
+		B3D921C02C2ADE14005A6998 /* weatcb_notifi_tone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = weatcb_notifi_tone.caf; sourceTree = "<group>"; };
+		B3D921C22C2ADE14005A6998 /* ProxyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyManager.swift; sourceTree = "<group>"; };
+		B3D921C42C2ADE14005A6998 /* SplaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplaceView.swift; sourceTree = "<group>"; };
+		B3D921C52C2ADE14005A6998 /* SplaceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplaceView.xib; sourceTree = "<group>"; };
+		B3D921C72C2ADE14005A6998 /* ScannerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		B3D921C82C2ADE14005A6998 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B3D921CA2C2ADE14005A6998 /* OZONE-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OZONE-Bridging-Header.h"; sourceTree = "<group>"; };
+		B3D921CB2C2ADE14005A6998 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		B3D921CC2C2ADE14005A6998 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		B3D921CD2C2ADE14005A6998 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		B3D921CE2C2ADE14005A6998 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		B3D921CF2C2ADE14005A6998 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		B3D921D02C2ADE14005A6998 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		B3D921D12C2ADE14005A6998 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		B3D921D22C2ADE14005A6998 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		B3D921D32C2ADE14005A6998 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		B3D921D42C2ADE14005A6998 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		B3D921D52C2ADE14005A6998 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		B3D921D62C2ADE14005A6998 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		B3D921D82C2ADE14005A6998 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		B3D921D92C2ADE14005A6998 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		B3D921DA2C2ADE14005A6998 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		B3D921DB2C2ADE14005A6998 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		B3D921DC2C2ADE14005A6998 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		B3D921DD2C2ADE14005A6998 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		B3D921DE2C2ADE14005A6998 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		B3D921DF2C2ADE14005A6998 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		B3D921E12C2ADE14005A6998 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		B3D921E22C2ADE14005A6998 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		B3D921E32C2ADE14005A6998 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		B3D921E42C2ADE14005A6998 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		B3D921E52C2ADE14005A6998 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		B3D921E62C2ADE14005A6998 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		B3D921E72C2ADE14005A6998 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		B3D921E82C2ADE14005A6998 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		B3D921ED2C2ADE15005A6998 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B3D921EE2C2ADE15005A6998 /* WebServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServer.swift; sourceTree = "<group>"; };
+		B3D921EF2C2ADE15005A6998 /* OZONE.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = OZONE.entitlements; sourceTree = "<group>"; };
+		B3D922072C2AE1C0005A6998 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B3D922092C2AE1D4005A6998 /* libafc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libafc.tbd; path = usr/lib/libafc.tbd; sourceTree = SDKROOT; };
+		B3D9220A2C2AE1E0005A6998 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B3D9220B2C2AE1EF005A6998 /* WindowsAzureMessaging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WindowsAzureMessaging.xcframework; path = "Pods/AzureNotificationHubs-iOS/WindowsAzureMessaging-SDK-Apple/WindowsAzureMessaging.xcframework"; sourceTree = "<group>"; };
+		B3D9220F2C2AE3DE005A6998 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B3DE92C22C3D613D0051BAAB /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		B3DE92C32C3D613D0051BAAB /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B3DE92C42C3D613D0051BAAB /* 0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 0.js; sourceTree = "<group>"; };
+		B3DE92C52C3D613D0051BAAB /* 0.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = 0.js.map; sourceTree = "<group>"; };
+		B3DE92C62C3D613D0051BAAB /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		B3DE92C72C3D613D0051BAAB /* main.css.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = main.css.map; sourceTree = "<group>"; };
+		B3DE92C82C3D613D0051BAAB /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		B3DE92C92C3D613D0051BAAB /* main.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = main.js.map; sourceTree = "<group>"; };
+		B3DE92CA2C3D613D0051BAAB /* polyfills.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = polyfills.js; sourceTree = "<group>"; };
+		B3DE92CB2C3D613D0051BAAB /* sw-toolbox.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "sw-toolbox.js"; sourceTree = "<group>"; };
+		B3DE92CC2C3D613D0051BAAB /* vendor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vendor.js; sourceTree = "<group>"; };
+		B3DE92CD2C3D613D0051BAAB /* vendor.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = vendor.js.map; sourceTree = "<group>"; };
+		B3DE92CF2C3D613D0051BAAB /* service-worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "service-worker.js"; sourceTree = "<group>"; };
+		B3DE92D02C3D613D0051BAAB /* ionicons.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.eot; sourceTree = "<group>"; };
+		B3DE92D12C3D613D0051BAAB /* ionicons.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ionicons.scss; sourceTree = "<group>"; };
+		B3DE92D22C3D613D0051BAAB /* ionicons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ionicons.svg; sourceTree = "<group>"; };
+		B3DE92D32C3D613D0051BAAB /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		B3DE92D42C3D613D0051BAAB /* ionicons.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.woff; sourceTree = "<group>"; };
+		B3DE92D52C3D613D0051BAAB /* ionicons.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.woff2; sourceTree = "<group>"; };
+		B3DE92D62C3D613D0051BAAB /* noto-sans-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-bold.ttf"; sourceTree = "<group>"; };
+		B3DE92D72C3D613D0051BAAB /* noto-sans-bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-bold.woff"; sourceTree = "<group>"; };
+		B3DE92D82C3D613D0051BAAB /* noto-sans-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-regular.ttf"; sourceTree = "<group>"; };
+		B3DE92D92C3D613D0051BAAB /* noto-sans-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-regular.woff"; sourceTree = "<group>"; };
+		B3DE92DA2C3D613D0051BAAB /* noto-sans.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "noto-sans.scss"; sourceTree = "<group>"; };
+		B3DE92DB2C3D613D0051BAAB /* roboto-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.ttf"; sourceTree = "<group>"; };
+		B3DE92DC2C3D613D0051BAAB /* roboto-bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.woff"; sourceTree = "<group>"; };
+		B3DE92DD2C3D613D0051BAAB /* roboto-bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.woff2"; sourceTree = "<group>"; };
+		B3DE92DE2C3D613D0051BAAB /* roboto-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.ttf"; sourceTree = "<group>"; };
+		B3DE92DF2C3D613D0051BAAB /* roboto-light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.woff"; sourceTree = "<group>"; };
+		B3DE92E02C3D613D0051BAAB /* roboto-light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.woff2"; sourceTree = "<group>"; };
+		B3DE92E12C3D613D0051BAAB /* roboto-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.ttf"; sourceTree = "<group>"; };
+		B3DE92E22C3D613D0051BAAB /* roboto-medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.woff"; sourceTree = "<group>"; };
+		B3DE92E32C3D613D0051BAAB /* roboto-medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.woff2"; sourceTree = "<group>"; };
+		B3DE92E42C3D613D0051BAAB /* roboto-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.ttf"; sourceTree = "<group>"; };
+		B3DE92E52C3D613D0051BAAB /* roboto-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.woff"; sourceTree = "<group>"; };
+		B3DE92E62C3D613D0051BAAB /* roboto-regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.woff2"; sourceTree = "<group>"; };
+		B3DE92E72C3D613D0051BAAB /* roboto.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = roboto.scss; sourceTree = "<group>"; };
+		B3DE92E92C3D613D0051BAAB /* en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		B3DE92EA2C3D613D0051BAAB /* fr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fr.json; sourceTree = "<group>"; };
+		B3DE92EC2C3D613D0051BAAB /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		B3DE92EE2C3D613D0051BAAB /* icon-false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-false.png"; sourceTree = "<group>"; };
+		B3DE92EF2C3D613D0051BAAB /* icon-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map.png"; sourceTree = "<group>"; };
+		B3DE92F02C3D613D0051BAAB /* icon-route-end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-route-end.png"; sourceTree = "<group>"; };
+		B3DE92F12C3D613D0051BAAB /* icon-route-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-route-start.png"; sourceTree = "<group>"; };
+		B3DE92F22C3D613D0051BAAB /* icon-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-truck.png"; sourceTree = "<group>"; };
+		B3DE92F32C3D613D0051BAAB /* icon-true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-true.png"; sourceTree = "<group>"; };
+		B3DE92F42C3D613D0051BAAB /* iconfinder_truck.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iconfinder_truck.svg; sourceTree = "<group>"; };
+		B3DE92F52C3D613D0051BAAB /* landing_page_cart.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_cart.svg; sourceTree = "<group>"; };
+		B3DE92F62C3D613D0051BAAB /* landing_page_catalog.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_catalog.svg; sourceTree = "<group>"; };
+		B3DE92F72C3D613D0051BAAB /* landing_page_promotions.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_promotions.svg; sourceTree = "<group>"; };
+		B3DE92F82C3D613D0051BAAB /* landing_page_scan.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_scan.svg; sourceTree = "<group>"; };
+		B3DE92F92C3D613D0051BAAB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		B3DE92FA2C3D613D0051BAAB /* navbar_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navbar_background.jpg; sourceTree = "<group>"; };
+		B3DE92FB2C3D613D0051BAAB /* no-deliveries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-deliveries.png"; sourceTree = "<group>"; };
+		B3DE92FC2C3D613D0051BAAB /* noun-bug-3233681.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun-bug-3233681.png"; sourceTree = "<group>"; };
+		B3DE92FD2C3D613D0051BAAB /* orgill_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orgill_logo.png; sourceTree = "<group>"; };
+		B3DE92FE2C3D613D0051BAAB /* Orgill-Logo-500x123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orgill-Logo-500x123.png"; sourceTree = "<group>"; };
+		B3DE92FF2C3D613D0051BAAB /* Orgill-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orgill-Logo.png"; sourceTree = "<group>"; };
+		B3DE93002C3D613D0051BAAB /* Orgill-truck-locate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Orgill-truck-locate.jpg"; sourceTree = "<group>"; };
+		B3DE93012C3D613D0051BAAB /* product_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_placeholder.png; sourceTree = "<group>"; };
+		B3DE93022C3D613D0051BAAB /* truck-mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "truck-mobile.png"; sourceTree = "<group>"; };
+		B3DE93042C3D613D0051BAAB /* arrow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrow.svg; sourceTree = "<group>"; };
+		B3DE93052C3D613D0051BAAB /* Dropship.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dropship.svg; sourceTree = "<group>"; };
+		B3DE93062C3D613D0051BAAB /* funnel.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funnel.svg; sourceTree = "<group>"; };
+		B3DE93072C3D613D0051BAAB /* Pallet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pallet.svg; sourceTree = "<group>"; };
+		B3DE93082C3D613D0051BAAB /* Planogram.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Planogram.svg; sourceTree = "<group>"; };
+		B3DE93092C3D613D0051BAAB /* swap-vertical.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swap-vertical.svg"; sourceTree = "<group>"; };
+		B3DE930A2C3D613D0051BAAB /* vendor-landing-vector.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vendor-landing-vector.svg"; sourceTree = "<group>"; };
+		B3DE930B2C3D613D0051BAAB /* vendor-menu-vector.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vendor-menu-vector.svg"; sourceTree = "<group>"; };
+		B3DE930D2C3D613D0051BAAB /* db.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db.sql; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D921562C2ADB96005A6998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D922082C2AE1C0005A6998 /* WebKit.framework in Frameworks */,
+				B3D9220C2C2AE1EF005A6998 /* WindowsAzureMessaging.xcframework in Frameworks */,
+				A1B3754BAA808277694497C0 /* Pods_OZONE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D9216C2C2ADB98005A6998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D921762C2ADB98005A6998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AC65C8550A5F239A421233C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07B7FF05DC1EA88DD7DB4165 /* Pods-OZONE.debug.xcconfig */,
+				18150FFDDBCB5382F0D4DB23 /* Pods-OZONE.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BF01291E98A4C9F938939C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D9220B2C2AE1EF005A6998 /* WindowsAzureMessaging.xcframework */,
+				B3D9220A2C2AE1E0005A6998 /* libz.tbd */,
+				B3D922092C2AE1D4005A6998 /* libafc.tbd */,
+				B3D922072C2AE1C0005A6998 /* WebKit.framework */,
+				80E72F4A194ED4479CD37BF9 /* Pods_OZONE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B31C0C5D2C34213D0044B2A9 /* Ionic */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE930E2C3D613D0051BAAB /* assets */,
+				B3DE92CE2C3D613D0051BAAB /* build */,
+				B3DE92C32C3D613D0051BAAB /* index.html */,
+				B3DE92C22C3D613D0051BAAB /* manifest.json */,
+				B3DE92CF2C3D613D0051BAAB /* service-worker.js */,
+			);
+			path = Ionic;
+			sourceTree = "<group>";
+		};
+		B3D921502C2ADB96005A6998 = {
+			isa = PBXGroup;
+			children = (
+				B3D9215B2C2ADB96005A6998 /* OZONE */,
+				B3D921722C2ADB98005A6998 /* OZONETests */,
+				B3D9217C2C2ADB98005A6998 /* OZONEUITests */,
+				B3D9215A2C2ADB96005A6998 /* Products */,
+				8AC65C8550A5F239A421233C /* Pods */,
+				9BF01291E98A4C9F938939C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D9215A2C2ADB96005A6998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921592C2ADB96005A6998 /* OZONE.app */,
+				B3D9216F2C2ADB98005A6998 /* OZONETests.xctest */,
+				B3D921792C2ADB98005A6998 /* OZONEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D9215B2C2ADB96005A6998 /* OZONE */ = {
+			isa = PBXGroup;
+			children = (
+				B31C0C5D2C34213D0044B2A9 /* Ionic */,
+				B3D9215C2C2ADB96005A6998 /* AppDelegate.swift */,
+				B3D921652C2ADB98005A6998 /* Assets.xcassets */,
+				B3D921B92C2ADDD7005A6998 /* Common */,
+				B3D921BE2C2ADDEE005A6998 /* Extension */,
+				B3D921EA2C2ADE14005A6998 /* GCDWebServer */,
+				B3D9216A2C2ADB98005A6998 /* Info.plist */,
+				B3D921672C2ADB98005A6998 /* LaunchScreen.storyboard */,
+				B3D9220F2C2AE3DE005A6998 /* Main.storyboard */,
+				B3D921ED2C2ADE15005A6998 /* NetworkManager.swift */,
+				B3D921C92C2ADE14005A6998 /* NotificationHub */,
+				B3D921CA2C2ADE14005A6998 /* OZONE-Bridging-Header.h */,
+				B3D921EF2C2ADE15005A6998 /* OZONE.entitlements */,
+				B3D921C22C2ADE14005A6998 /* ProxyManager.swift */,
+				B3D921C12C2ADE14005A6998 /* Resource */,
+				B3D921C72C2ADE14005A6998 /* ScannerVC.swift */,
+				B3D9215E2C2ADB96005A6998 /* SceneDelegate.swift */,
+				B3D921C62C2ADE14005A6998 /* SplaceView */,
+				B3B977D42C2BD8E9005C0F90 /* ViewController.swift */,
+				B3D921EE2C2ADE15005A6998 /* WebServer.swift */,
+			);
+			path = OZONE;
+			sourceTree = "<group>";
+		};
+		B3D921722C2ADB98005A6998 /* OZONETests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921732C2ADB98005A6998 /* OZONETests.swift */,
+			);
+			path = OZONETests;
+			sourceTree = "<group>";
+		};
+		B3D9217C2C2ADB98005A6998 /* OZONEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D9217D2C2ADB98005A6998 /* OZONEUITests.swift */,
+				B3D9217F2C2ADB98005A6998 /* OZONEUITestsLaunchTests.swift */,
+			);
+			path = OZONEUITests;
+			sourceTree = "<group>";
+		};
+		B3D921B92C2ADDD7005A6998 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921B52C2ADDD7005A6998 /* CommonFunctions.swift */,
+				B3D921B62C2ADDD7005A6998 /* Constants.swift */,
+				B3D921B72C2ADDD7005A6998 /* UIView+frameChanges.h */,
+				B3D921B82C2ADDD7005A6998 /* UIView+frameChanges.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B3D921BE2C2ADDEE005A6998 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921BD2C2ADDEE005A6998 /* String+MyString.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B3D921C12C2ADE14005A6998 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921C02C2ADE14005A6998 /* weatcb_notifi_tone.caf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B3D921C62C2ADE14005A6998 /* SplaceView */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921C42C2ADE14005A6998 /* SplaceView.swift */,
+				B3D921C52C2ADE14005A6998 /* SplaceView.xib */,
+			);
+			path = SplaceView;
+			sourceTree = "<group>";
+		};
+		B3D921C92C2ADE14005A6998 /* NotificationHub */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921C82C2ADE14005A6998 /* Utils.swift */,
+			);
+			path = NotificationHub;
+			sourceTree = "<group>";
+		};
+		B3D921D72C2ADE14005A6998 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921CB2C2ADE14005A6998 /* GCDWebServer.h */,
+				B3D921CC2C2ADE14005A6998 /* GCDWebServer.m */,
+				B3D921CD2C2ADE14005A6998 /* GCDWebServerConnection.h */,
+				B3D921CE2C2ADE14005A6998 /* GCDWebServerConnection.m */,
+				B3D921CF2C2ADE14005A6998 /* GCDWebServerFunctions.h */,
+				B3D921D02C2ADE14005A6998 /* GCDWebServerFunctions.m */,
+				B3D921D12C2ADE14005A6998 /* GCDWebServerHTTPStatusCodes.h */,
+				B3D921D22C2ADE14005A6998 /* GCDWebServerPrivate.h */,
+				B3D921D32C2ADE14005A6998 /* GCDWebServerRequest.h */,
+				B3D921D42C2ADE14005A6998 /* GCDWebServerRequest.m */,
+				B3D921D52C2ADE14005A6998 /* GCDWebServerResponse.h */,
+				B3D921D62C2ADE14005A6998 /* GCDWebServerResponse.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B3D921E02C2ADE14005A6998 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921D82C2ADE14005A6998 /* GCDWebServerDataRequest.h */,
+				B3D921D92C2ADE14005A6998 /* GCDWebServerDataRequest.m */,
+				B3D921DA2C2ADE14005A6998 /* GCDWebServerFileRequest.h */,
+				B3D921DB2C2ADE14005A6998 /* GCDWebServerFileRequest.m */,
+				B3D921DC2C2ADE14005A6998 /* GCDWebServerMultiPartFormRequest.h */,
+				B3D921DD2C2ADE14005A6998 /* GCDWebServerMultiPartFormRequest.m */,
+				B3D921DE2C2ADE14005A6998 /* GCDWebServerURLEncodedFormRequest.h */,
+				B3D921DF2C2ADE14005A6998 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		B3D921E92C2ADE14005A6998 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921E12C2ADE14005A6998 /* GCDWebServerDataResponse.h */,
+				B3D921E22C2ADE14005A6998 /* GCDWebServerDataResponse.m */,
+				B3D921E32C2ADE14005A6998 /* GCDWebServerErrorResponse.h */,
+				B3D921E42C2ADE14005A6998 /* GCDWebServerErrorResponse.m */,
+				B3D921E52C2ADE14005A6998 /* GCDWebServerFileResponse.h */,
+				B3D921E62C2ADE14005A6998 /* GCDWebServerFileResponse.m */,
+				B3D921E72C2ADE14005A6998 /* GCDWebServerStreamedResponse.h */,
+				B3D921E82C2ADE14005A6998 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		B3D921EA2C2ADE14005A6998 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				B3D921D72C2ADE14005A6998 /* Core */,
+				B3D921E02C2ADE14005A6998 /* Requests */,
+				B3D921E92C2ADE14005A6998 /* Responses */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		B3DE92CE2C3D613D0051BAAB /* build */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE92C42C3D613D0051BAAB /* 0.js */,
+				B3DE92C52C3D613D0051BAAB /* 0.js.map */,
+				B3DE92C62C3D613D0051BAAB /* main.css */,
+				B3DE92C72C3D613D0051BAAB /* main.css.map */,
+				B3DE92C82C3D613D0051BAAB /* main.js */,
+				B3DE92C92C3D613D0051BAAB /* main.js.map */,
+				B3DE92CA2C3D613D0051BAAB /* polyfills.js */,
+				B3DE92CB2C3D613D0051BAAB /* sw-toolbox.js */,
+				B3DE92CC2C3D613D0051BAAB /* vendor.js */,
+				B3DE92CD2C3D613D0051BAAB /* vendor.js.map */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		B3DE92E82C3D613D0051BAAB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE92D02C3D613D0051BAAB /* ionicons.eot */,
+				B3DE92D12C3D613D0051BAAB /* ionicons.scss */,
+				B3DE92D22C3D613D0051BAAB /* ionicons.svg */,
+				B3DE92D32C3D613D0051BAAB /* ionicons.ttf */,
+				B3DE92D42C3D613D0051BAAB /* ionicons.woff */,
+				B3DE92D52C3D613D0051BAAB /* ionicons.woff2 */,
+				B3DE92D62C3D613D0051BAAB /* noto-sans-bold.ttf */,
+				B3DE92D72C3D613D0051BAAB /* noto-sans-bold.woff */,
+				B3DE92D82C3D613D0051BAAB /* noto-sans-regular.ttf */,
+				B3DE92D92C3D613D0051BAAB /* noto-sans-regular.woff */,
+				B3DE92DA2C3D613D0051BAAB /* noto-sans.scss */,
+				B3DE92DB2C3D613D0051BAAB /* roboto-bold.ttf */,
+				B3DE92DC2C3D613D0051BAAB /* roboto-bold.woff */,
+				B3DE92DD2C3D613D0051BAAB /* roboto-bold.woff2 */,
+				B3DE92DE2C3D613D0051BAAB /* roboto-light.ttf */,
+				B3DE92DF2C3D613D0051BAAB /* roboto-light.woff */,
+				B3DE92E02C3D613D0051BAAB /* roboto-light.woff2 */,
+				B3DE92E12C3D613D0051BAAB /* roboto-medium.ttf */,
+				B3DE92E22C3D613D0051BAAB /* roboto-medium.woff */,
+				B3DE92E32C3D613D0051BAAB /* roboto-medium.woff2 */,
+				B3DE92E42C3D613D0051BAAB /* roboto-regular.ttf */,
+				B3DE92E52C3D613D0051BAAB /* roboto-regular.woff */,
+				B3DE92E62C3D613D0051BAAB /* roboto-regular.woff2 */,
+				B3DE92E72C3D613D0051BAAB /* roboto.scss */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		B3DE92EB2C3D613D0051BAAB /* i18n */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE92E92C3D613D0051BAAB /* en.json */,
+				B3DE92EA2C3D613D0051BAAB /* fr.json */,
+			);
+			path = i18n;
+			sourceTree = "<group>";
+		};
+		B3DE92ED2C3D613D0051BAAB /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE92EC2C3D613D0051BAAB /* favicon.ico */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		B3DE93032C3D613D0051BAAB /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE92EE2C3D613D0051BAAB /* icon-false.png */,
+				B3DE92EF2C3D613D0051BAAB /* icon-map.png */,
+				B3DE92F02C3D613D0051BAAB /* icon-route-end.png */,
+				B3DE92F12C3D613D0051BAAB /* icon-route-start.png */,
+				B3DE92F22C3D613D0051BAAB /* icon-truck.png */,
+				B3DE92F32C3D613D0051BAAB /* icon-true.png */,
+				B3DE92F42C3D613D0051BAAB /* iconfinder_truck.svg */,
+				B3DE92F52C3D613D0051BAAB /* landing_page_cart.svg */,
+				B3DE92F62C3D613D0051BAAB /* landing_page_catalog.svg */,
+				B3DE92F72C3D613D0051BAAB /* landing_page_promotions.svg */,
+				B3DE92F82C3D613D0051BAAB /* landing_page_scan.svg */,
+				B3DE92F92C3D613D0051BAAB /* logo.png */,
+				B3DE92FA2C3D613D0051BAAB /* navbar_background.jpg */,
+				B3DE92FB2C3D613D0051BAAB /* no-deliveries.png */,
+				B3DE92FC2C3D613D0051BAAB /* noun-bug-3233681.png */,
+				B3DE92FD2C3D613D0051BAAB /* orgill_logo.png */,
+				B3DE92FE2C3D613D0051BAAB /* Orgill-Logo-500x123.png */,
+				B3DE92FF2C3D613D0051BAAB /* Orgill-Logo.png */,
+				B3DE93002C3D613D0051BAAB /* Orgill-truck-locate.jpg */,
+				B3DE93012C3D613D0051BAAB /* product_placeholder.png */,
+				B3DE93022C3D613D0051BAAB /* truck-mobile.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		B3DE930C2C3D613D0051BAAB /* vector */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE93042C3D613D0051BAAB /* arrow.svg */,
+				B3DE93052C3D613D0051BAAB /* Dropship.svg */,
+				B3DE93062C3D613D0051BAAB /* funnel.svg */,
+				B3DE93072C3D613D0051BAAB /* Pallet.svg */,
+				B3DE93082C3D613D0051BAAB /* Planogram.svg */,
+				B3DE93092C3D613D0051BAAB /* swap-vertical.svg */,
+				B3DE930A2C3D613D0051BAAB /* vendor-landing-vector.svg */,
+				B3DE930B2C3D613D0051BAAB /* vendor-menu-vector.svg */,
+			);
+			path = vector;
+			sourceTree = "<group>";
+		};
+		B3DE930E2C3D613D0051BAAB /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE92E82C3D613D0051BAAB /* fonts */,
+				B3DE92EB2C3D613D0051BAAB /* i18n */,
+				B3DE92ED2C3D613D0051BAAB /* icon */,
+				B3DE93032C3D613D0051BAAB /* imgs */,
+				B3DE930C2C3D613D0051BAAB /* vector */,
+				B3DE930D2C3D613D0051BAAB /* db.sql */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D921582C2ADB96005A6998 /* OZONE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D921832C2ADB98005A6998 /* Build configuration list for PBXNativeTarget "OZONE" */;
+			buildPhases = (
+				9F123465415870CA7A8ECEB8 /* [CP] Check Pods Manifest.lock */,
+				B3D921552C2ADB96005A6998 /* Sources */,
+				B3D921562C2ADB96005A6998 /* Frameworks */,
+				B3D921572C2ADB96005A6998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OZONE;
+			productName = OZONE;
+			productReference = B3D921592C2ADB96005A6998 /* OZONE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3D9216E2C2ADB98005A6998 /* OZONETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D921862C2ADB98005A6998 /* Build configuration list for PBXNativeTarget "OZONETests" */;
+			buildPhases = (
+				B3D9216B2C2ADB98005A6998 /* Sources */,
+				B3D9216C2C2ADB98005A6998 /* Frameworks */,
+				B3D9216D2C2ADB98005A6998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D921712C2ADB98005A6998 /* PBXTargetDependency */,
+			);
+			name = OZONETests;
+			productName = OZONETests;
+			productReference = B3D9216F2C2ADB98005A6998 /* OZONETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3D921782C2ADB98005A6998 /* OZONEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D921892C2ADB98005A6998 /* Build configuration list for PBXNativeTarget "OZONEUITests" */;
+			buildPhases = (
+				B3D921752C2ADB98005A6998 /* Sources */,
+				B3D921762C2ADB98005A6998 /* Frameworks */,
+				B3D921772C2ADB98005A6998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D9217B2C2ADB98005A6998 /* PBXTargetDependency */,
+			);
+			name = OZONEUITests;
+			productName = OZONEUITests;
+			productReference = B3D921792C2ADB98005A6998 /* OZONEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D921512C2ADB96005A6998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B3D921582C2ADB96005A6998 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					B3D9216E2C2ADB98005A6998 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B3D921582C2ADB96005A6998;
+					};
+					B3D921782C2ADB98005A6998 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B3D921582C2ADB96005A6998;
+					};
+				};
+			};
+			buildConfigurationList = B3D921542C2ADB96005A6998 /* Build configuration list for PBXProject "OZONE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3D921502C2ADB96005A6998;
+			productRefGroup = B3D9215A2C2ADB96005A6998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D921582C2ADB96005A6998 /* OZONE */,
+				B3D9216E2C2ADB98005A6998 /* OZONETests */,
+				B3D921782C2ADB98005A6998 /* OZONEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D921572C2ADB96005A6998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DE93172C3D613D0051BAAB /* service-worker.js in Resources */,
+				B3DE93102C3D613D0051BAAB /* index.html in Resources */,
+				B3DE93402C3D613D0051BAAB /* no-deliveries.png in Resources */,
+				B3DE93472C3D613D0051BAAB /* truck-mobile.png in Resources */,
+				B3DE93482C3D613D0051BAAB /* arrow.svg in Resources */,
+				B3DE932C2C3D613D0051BAAB /* roboto-regular.ttf in Resources */,
+				B3DE93302C3D613D0051BAAB /* en.json in Resources */,
+				B3DE93432C3D613D0051BAAB /* Orgill-Logo-500x123.png in Resources */,
+				B3DE933D2C3D613D0051BAAB /* landing_page_scan.svg in Resources */,
+				B3DE932B2C3D613D0051BAAB /* roboto-medium.woff2 in Resources */,
+				B3DE931A2C3D613D0051BAAB /* ionicons.svg in Resources */,
+				B3DE93372C3D613D0051BAAB /* icon-truck.png in Resources */,
+				B3D921662C2ADB98005A6998 /* Assets.xcassets in Resources */,
+				B3DE93122C3D613D0051BAAB /* main.css in Resources */,
+				B3DE93362C3D613D0051BAAB /* icon-route-start.png in Resources */,
+				B3DE934A2C3D613D0051BAAB /* funnel.svg in Resources */,
+				B3DE93322C3D613D0051BAAB /* favicon.ico in Resources */,
+				B3DE93242C3D613D0051BAAB /* roboto-bold.woff in Resources */,
+				B3DE93442C3D613D0051BAAB /* Orgill-Logo.png in Resources */,
+				B3DE93352C3D613D0051BAAB /* icon-route-end.png in Resources */,
+				B3DE93492C3D613D0051BAAB /* Dropship.svg in Resources */,
+				B3DE93332C3D613D0051BAAB /* icon-false.png in Resources */,
+				B3DE93162C3D613D0051BAAB /* vendor.js in Resources */,
+				B3DE931B2C3D613D0051BAAB /* ionicons.ttf in Resources */,
+				B3DE93212C3D613D0051BAAB /* noto-sans-regular.woff in Resources */,
+				B3DE93202C3D613D0051BAAB /* noto-sans-regular.ttf in Resources */,
+				B3DE93382C3D613D0051BAAB /* icon-true.png in Resources */,
+				B3DE931C2C3D613D0051BAAB /* ionicons.woff in Resources */,
+				B3D922102C2AE3DE005A6998 /* Main.storyboard in Resources */,
+				B3DE93422C3D613D0051BAAB /* orgill_logo.png in Resources */,
+				B3DE932F2C3D613D0051BAAB /* roboto.scss in Resources */,
+				B3D921F02C2ADE15005A6998 /* weatcb_notifi_tone.caf in Resources */,
+				B3DE93412C3D613D0051BAAB /* noun-bug-3233681.png in Resources */,
+				B3DE93232C3D613D0051BAAB /* roboto-bold.ttf in Resources */,
+				B3DE93502C3D613D0051BAAB /* db.sql in Resources */,
+				B3DE931E2C3D613D0051BAAB /* noto-sans-bold.ttf in Resources */,
+				B3DE931D2C3D613D0051BAAB /* ionicons.woff2 in Resources */,
+				B3DE933C2C3D613D0051BAAB /* landing_page_promotions.svg in Resources */,
+				B3DE933E2C3D613D0051BAAB /* logo.png in Resources */,
+				B3DE934B2C3D613D0051BAAB /* Pallet.svg in Resources */,
+				B3DE93292C3D613D0051BAAB /* roboto-medium.ttf in Resources */,
+				B3DE933A2C3D613D0051BAAB /* landing_page_cart.svg in Resources */,
+				B3DE93342C3D613D0051BAAB /* icon-map.png in Resources */,
+				B3D921692C2ADB98005A6998 /* Base in Resources */,
+				B3DE93452C3D613D0051BAAB /* Orgill-truck-locate.jpg in Resources */,
+				B3DE934E2C3D613D0051BAAB /* vendor-landing-vector.svg in Resources */,
+				B3DE93222C3D613D0051BAAB /* noto-sans.scss in Resources */,
+				B3DE93312C3D613D0051BAAB /* fr.json in Resources */,
+				B3DE931F2C3D613D0051BAAB /* noto-sans-bold.woff in Resources */,
+				B3DE933B2C3D613D0051BAAB /* landing_page_catalog.svg in Resources */,
+				B3DE934C2C3D613D0051BAAB /* Planogram.svg in Resources */,
+				B3DE93272C3D613D0051BAAB /* roboto-light.woff in Resources */,
+				B3DE93142C3D613D0051BAAB /* polyfills.js in Resources */,
+				B3DE933F2C3D613D0051BAAB /* navbar_background.jpg in Resources */,
+				B3DE932E2C3D613D0051BAAB /* roboto-regular.woff2 in Resources */,
+				B3DE934D2C3D613D0051BAAB /* swap-vertical.svg in Resources */,
+				B3DE93192C3D613D0051BAAB /* ionicons.scss in Resources */,
+				B3DE930F2C3D613D0051BAAB /* manifest.json in Resources */,
+				B3DE93252C3D613D0051BAAB /* roboto-bold.woff2 in Resources */,
+				B3DE932D2C3D613D0051BAAB /* roboto-regular.woff in Resources */,
+				B3DE93282C3D613D0051BAAB /* roboto-light.woff2 in Resources */,
+				B3D921F42C2ADE15005A6998 /* SplaceView.xib in Resources */,
+				B3DE932A2C3D613D0051BAAB /* roboto-medium.woff in Resources */,
+				B3DE93112C3D613D0051BAAB /* 0.js in Resources */,
+				B3DE93462C3D613D0051BAAB /* product_placeholder.png in Resources */,
+				B3DE93392C3D613D0051BAAB /* iconfinder_truck.svg in Resources */,
+				B3DE93152C3D613D0051BAAB /* sw-toolbox.js in Resources */,
+				B3DE934F2C3D613D0051BAAB /* vendor-menu-vector.svg in Resources */,
+				B3DE93132C3D613D0051BAAB /* main.js in Resources */,
+				B3DE93262C3D613D0051BAAB /* roboto-light.ttf in Resources */,
+				B3DE93182C3D613D0051BAAB /* ionicons.eot in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D9216D2C2ADB98005A6998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D921772C2ADB98005A6998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F123465415870CA7A8ECEB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OZONE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D921552C2ADB96005A6998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D922052C2ADE15005A6998 /* NetworkManager.swift in Sources */,
+				B3D921F32C2ADE15005A6998 /* SplaceView.swift in Sources */,
+				B3D921BC2C2ADDD7005A6998 /* UIView+frameChanges.m in Sources */,
+				B3D921BB2C2ADDD7005A6998 /* Constants.swift in Sources */,
+				B3D921F12C2ADE15005A6998 /* ProxyManager.swift in Sources */,
+				B3D921F72C2ADE15005A6998 /* GCDWebServer.m in Sources */,
+				B3D922022C2ADE15005A6998 /* GCDWebServerFileResponse.m in Sources */,
+				B3D921FF2C2ADE15005A6998 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				B3B977D52C2BD8E9005C0F90 /* ViewController.swift in Sources */,
+				B3D921FB2C2ADE15005A6998 /* GCDWebServerResponse.m in Sources */,
+				B3D921FC2C2ADE15005A6998 /* GCDWebServerDataRequest.m in Sources */,
+				B3D9215D2C2ADB96005A6998 /* AppDelegate.swift in Sources */,
+				B3D922002C2ADE15005A6998 /* GCDWebServerDataResponse.m in Sources */,
+				B3D921FD2C2ADE15005A6998 /* GCDWebServerFileRequest.m in Sources */,
+				B3D921F82C2ADE15005A6998 /* GCDWebServerConnection.m in Sources */,
+				B3D921BA2C2ADDD7005A6998 /* CommonFunctions.swift in Sources */,
+				B3D921BF2C2ADDEE005A6998 /* String+MyString.swift in Sources */,
+				B3D921F92C2ADE15005A6998 /* GCDWebServerFunctions.m in Sources */,
+				B3D922032C2ADE15005A6998 /* GCDWebServerStreamedResponse.m in Sources */,
+				B3D921FA2C2ADE15005A6998 /* GCDWebServerRequest.m in Sources */,
+				B3D921F52C2ADE15005A6998 /* ScannerVC.swift in Sources */,
+				B3D922062C2ADE15005A6998 /* WebServer.swift in Sources */,
+				B3D9215F2C2ADB96005A6998 /* SceneDelegate.swift in Sources */,
+				B3D921F62C2ADE15005A6998 /* Utils.swift in Sources */,
+				B3D922012C2ADE15005A6998 /* GCDWebServerErrorResponse.m in Sources */,
+				B3D921FE2C2ADE15005A6998 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D9216B2C2ADB98005A6998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D921742C2ADB98005A6998 /* OZONETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D921752C2ADB98005A6998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D921802C2ADB98005A6998 /* OZONEUITestsLaunchTests.swift in Sources */,
+				B3D9217E2C2ADB98005A6998 /* OZONEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D921712C2ADB98005A6998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D921582C2ADB96005A6998 /* OZONE */;
+			targetProxy = B3D921702C2ADB98005A6998 /* PBXContainerItemProxy */;
+		};
+		B3D9217B2C2ADB98005A6998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D921582C2ADB96005A6998 /* OZONE */;
+			targetProxy = B3D9217A2C2ADB98005A6998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3D921672C2ADB98005A6998 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D921682C2ADB98005A6998 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3D921812C2ADB98005A6998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3D921822C2ADB98005A6998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D921842C2ADB98005A6998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B7FF05DC1EA88DD7DB4165 /* Pods-OZONE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Orgill, Inc (N2WM8ZSY3H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Orgill, Inc (N2WM8ZSY3H)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = N2WM8ZSY3H;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N2WM8ZSY3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OZONE/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ozone;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To enable scanner mode for the application";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Reason for using Bonjour that the user can understand";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 9.5.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orgill.ionic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Orgill Ionic Distribution";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Orgill Ionic Distribution";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OZONE/OZONE-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3D921852C2ADB98005A6998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18150FFDDBCB5382F0D4DB23 /* Pods-OZONE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Orgill, Inc (N2WM8ZSY3H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Orgill, Inc (N2WM8ZSY3H)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = N2WM8ZSY3H;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N2WM8ZSY3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OZONE/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ozone;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To enable scanner mode for the application";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Reason for using Bonjour that the user can understand";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 9.5.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orgill.ionic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Orgill Ionic Distribution";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Orgill Ionic Distribution";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OZONE/OZONE-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3D921872C2ADB98005A6998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.OZONETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OZONE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OZONE";
+			};
+			name = Debug;
+		};
+		B3D921882C2ADB98005A6998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.OZONETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OZONE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OZONE";
+			};
+			name = Release;
+		};
+		B3D9218A2C2ADB98005A6998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.OZONEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OZONE;
+			};
+			name = Debug;
+		};
+		B3D9218B2C2ADB98005A6998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.OZONEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OZONE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D921542C2ADB96005A6998 /* Build configuration list for PBXProject "OZONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D921812C2ADB98005A6998 /* Debug */,
+				B3D921822C2ADB98005A6998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D921832C2ADB98005A6998 /* Build configuration list for PBXNativeTarget "OZONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D921842C2ADB98005A6998 /* Debug */,
+				B3D921852C2ADB98005A6998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D921862C2ADB98005A6998 /* Build configuration list for PBXNativeTarget "OZONETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D921872C2ADB98005A6998 /* Debug */,
+				B3D921882C2ADB98005A6998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D921892C2ADB98005A6998 /* Build configuration list for PBXNativeTarget "OZONEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D9218A2C2ADB98005A6998 /* Debug */,
+				B3D9218B2C2ADB98005A6998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D921512C2ADB96005A6998 /* Project object */;
+}
