@@ -199,10 +199,12 @@ class ViewController: UIViewController,  ScannerReturnProtocol{
         evaluateWithJavaScriptExpression(jsExpression: "this.window.ozone.fetchProductInfo('\(value)');")
     }
     func ShowCameraPermissionPopUp(){
+        //This will call web app's permission pop up
         evaluateWithJavaScriptExpression(jsExpression: "this.window.ozone.showRequestCameraPermissionPopUp();")
     }
     
     func onCameraPermissionAllow(){
+        //If permission not granted then this will open setting on press allow button from web's popup
         guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {
                    return
                }
@@ -215,7 +217,6 @@ class ViewController: UIViewController,  ScannerReturnProtocol{
     }
     
     func CallScannerVC(){
-        print("HEYEYEYEY")
         switch AVCaptureDevice.authorizationStatus(for: .video) {
         case .authorized:
             openScanner()
@@ -239,6 +240,7 @@ class ViewController: UIViewController,  ScannerReturnProtocol{
     
     func openScanner(){
         DispatchQueue.main.async {
+            //Will open ios scanner view screen
             let destVC = ScannerViewController()
             destVC.scannerReturns = self
             let navController = UINavigationController(rootViewController: destVC)

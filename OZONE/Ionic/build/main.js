@@ -10403,13 +10403,13 @@ var Login = /** @class */ (function () {
         this.popoversService = popoversService;
         this.modal = modal;
         this.showPassword = false;
-        this.loginLoader = this.loadingService.createLoader(this.translateProvider.translate(__WEBPACK_IMPORTED_MODULE_2__util_strings__["j" /* LOADING_ALERT_CONTENT_LOGIN */]));
     }
     Login.prototype.login = function () {
         var _this = this;
         if (!this.isValidInput()) {
             return;
         }
+        this.loginLoader = this.loadingService.createLoader(this.translateProvider.translate(__WEBPACK_IMPORTED_MODULE_2__util_strings__["j" /* LOADING_ALERT_CONTENT_LOGIN */]));
         // TODO: Refactor the auth logic wtf.
         this.loginLoader.show();
         var loginRequest = {

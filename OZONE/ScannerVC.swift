@@ -43,6 +43,7 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
                         self.setupCaptureSession()
                         self.scannerReturns?.onCameraPermissionAllow()
                     } else {
+                        //This will show alert for camera permission
                         self.scannerReturns?.ShowCameraPermissionPopUp()
                     }
                 }
@@ -134,10 +135,11 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
             // Convert the barcode's bounds to the view's coordinate system
             let transformedMetadataObject = previewLayer.transformedMetadataObject(for: readableObject)
             
-            // Check if the barcode's bounds intersect with the scan area
+            // if the barcode's bounds intersect within scan area
             if let barcodeBounds = transformedMetadataObject?.bounds {
                 if scanAreaFrame.intersects(barcodeBounds) {
-                    print("Barcode is aligned with the red line.")
+                    //If barcode is aligned with scan frame area then it will stop capturing, and vibrate happens and will navigate back with detected value
+//                    print("Barcode is aligned with the red line.")
                     captureSession.stopRunning()
                     AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
                     found(code: stringValue)
@@ -149,6 +151,7 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
         }
     }
 
+    //On detect barcode
     func found(code: String) {
         scannerReturns?.ReturnValue(value: code)
     }

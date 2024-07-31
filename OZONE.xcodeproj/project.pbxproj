@@ -8,6 +8,72 @@
 
 /* Begin PBXBuildFile section */
 		A1B3754BAA808277694497C0 /* Pods_OZONE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E72F4A194ED4479CD37BF9 /* Pods_OZONE.framework */; };
+		B3A62F2B2C454D08003552AE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EDE2C454D08003552AE /* index.html */; };
+		B3A62F2C2C454D08003552AE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EDF2C454D08003552AE /* manifest.json */; };
+		B3A62F2D2C454D08003552AE /* service-worker.js in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EE02C454D08003552AE /* service-worker.js */; };
+		B3A62F2E2C454D08003552AE /* polyfills.js in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EE42C454D08003552AE /* polyfills.js */; };
+		B3A62F2F2C454D08003552AE /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EE52C454D08003552AE /* main.css */; };
+		B3A62F302C454D08003552AE /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EE62C454D08003552AE /* vendor.js */; };
+		B3A62F312C454D08003552AE /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EE72C454D08003552AE /* main.js */; };
+		B3A62F322C454D08003552AE /* 0.js in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EE92C454D08003552AE /* 0.js */; };
+		B3A62F332C454D08003552AE /* sw-toolbox.js in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EEA2C454D08003552AE /* sw-toolbox.js */; };
+		B3A62F342C454D08003552AE /* db.sql in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EED2C454D08003552AE /* db.sql */; };
+		B3A62F352C454D08003552AE /* orgill_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EEF2C454D08003552AE /* orgill_logo.png */; };
+		B3A62F362C454D08003552AE /* landing_page_promotions.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF02C454D08003552AE /* landing_page_promotions.svg */; };
+		B3A62F372C454D08003552AE /* icon-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF12C454D08003552AE /* icon-truck.png */; };
+		B3A62F382C454D08003552AE /* icon-false.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF22C454D08003552AE /* icon-false.png */; };
+		B3A62F392C454D08003552AE /* icon-true.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF32C454D08003552AE /* icon-true.png */; };
+		B3A62F3A2C454D08003552AE /* noun-bug-3233681.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF42C454D08003552AE /* noun-bug-3233681.png */; };
+		B3A62F3B2C454D08003552AE /* icon-route-end.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF52C454D08003552AE /* icon-route-end.png */; };
+		B3A62F3C2C454D08003552AE /* navbar_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF62C454D08003552AE /* navbar_background.jpg */; };
+		B3A62F3D2C454D08003552AE /* landing_page_scan.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF72C454D08003552AE /* landing_page_scan.svg */; };
+		B3A62F3E2C454D08003552AE /* iconfinder_truck.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF82C454D08003552AE /* iconfinder_truck.svg */; };
+		B3A62F3F2C454D08003552AE /* landing_page_catalog.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EF92C454D08003552AE /* landing_page_catalog.svg */; };
+		B3A62F402C454D08003552AE /* truck-mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EFA2C454D08003552AE /* truck-mobile.png */; };
+		B3A62F412C454D08003552AE /* Orgill-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EFB2C454D08003552AE /* Orgill-Logo.png */; };
+		B3A62F422C454D08003552AE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EFC2C454D08003552AE /* logo.png */; };
+		B3A62F432C454D08003552AE /* Orgill-truck-locate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EFD2C454D08003552AE /* Orgill-truck-locate.jpg */; };
+		B3A62F442C454D08003552AE /* landing_page_cart.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EFE2C454D08003552AE /* landing_page_cart.svg */; };
+		B3A62F452C454D08003552AE /* no-deliveries.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62EFF2C454D08003552AE /* no-deliveries.png */; };
+		B3A62F462C454D08003552AE /* Orgill-Logo-500x123.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F002C454D08003552AE /* Orgill-Logo-500x123.png */; };
+		B3A62F472C454D08003552AE /* product_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F012C454D08003552AE /* product_placeholder.png */; };
+		B3A62F482C454D08003552AE /* icon-route-start.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F022C454D08003552AE /* icon-route-start.png */; };
+		B3A62F492C454D08003552AE /* icon-map.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F032C454D08003552AE /* icon-map.png */; };
+		B3A62F4A2C454D08003552AE /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F052C454D08003552AE /* favicon.ico */; };
+		B3A62F4B2C454D08003552AE /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F072C454D08003552AE /* en.json */; };
+		B3A62F4C2C454D08003552AE /* fr.json in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F082C454D08003552AE /* fr.json */; };
+		B3A62F4D2C454D08003552AE /* roboto-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F0A2C454D08003552AE /* roboto-medium.ttf */; };
+		B3A62F4E2C454D08003552AE /* roboto-light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F0B2C454D08003552AE /* roboto-light.woff2 */; };
+		B3A62F4F2C454D08003552AE /* roboto-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F0C2C454D08003552AE /* roboto-light.ttf */; };
+		B3A62F502C454D08003552AE /* roboto-regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F0D2C454D08003552AE /* roboto-regular.woff2 */; };
+		B3A62F512C454D08003552AE /* roboto-regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F0E2C454D08003552AE /* roboto-regular.woff */; };
+		B3A62F522C454D08003552AE /* noto-sans-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F0F2C454D08003552AE /* noto-sans-bold.ttf */; };
+		B3A62F532C454D08003552AE /* ionicons.eot in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F102C454D08003552AE /* ionicons.eot */; };
+		B3A62F542C454D08003552AE /* noto-sans-bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F112C454D08003552AE /* noto-sans-bold.woff */; };
+		B3A62F552C454D08003552AE /* roboto-light.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F122C454D08003552AE /* roboto-light.woff */; };
+		B3A62F562C454D08003552AE /* roboto-medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F132C454D08003552AE /* roboto-medium.woff2 */; };
+		B3A62F572C454D08003552AE /* ionicons.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F142C454D08003552AE /* ionicons.woff */; };
+		B3A62F582C454D08003552AE /* roboto-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F152C454D08003552AE /* roboto-regular.ttf */; };
+		B3A62F592C454D08003552AE /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F162C454D08003552AE /* ionicons.ttf */; };
+		B3A62F5A2C454D08003552AE /* roboto-bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F172C454D08003552AE /* roboto-bold.woff2 */; };
+		B3A62F5B2C454D08003552AE /* noto-sans.scss in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F182C454D08003552AE /* noto-sans.scss */; };
+		B3A62F5C2C454D08003552AE /* roboto.scss in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F192C454D08003552AE /* roboto.scss */; };
+		B3A62F5D2C454D08003552AE /* noto-sans-regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F1A2C454D08003552AE /* noto-sans-regular.woff */; };
+		B3A62F5E2C454D08003552AE /* roboto-medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F1B2C454D08003552AE /* roboto-medium.woff */; };
+		B3A62F5F2C454D08003552AE /* roboto-bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F1C2C454D08003552AE /* roboto-bold.woff */; };
+		B3A62F602C454D08003552AE /* noto-sans-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F1D2C454D08003552AE /* noto-sans-regular.ttf */; };
+		B3A62F612C454D08003552AE /* ionicons.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F1E2C454D08003552AE /* ionicons.svg */; };
+		B3A62F622C454D08003552AE /* roboto-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F1F2C454D08003552AE /* roboto-bold.ttf */; };
+		B3A62F632C454D08003552AE /* ionicons.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F202C454D08003552AE /* ionicons.woff2 */; };
+		B3A62F642C454D08003552AE /* ionicons.scss in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F212C454D08003552AE /* ionicons.scss */; };
+		B3A62F652C454D08003552AE /* Pallet.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F232C454D08003552AE /* Pallet.svg */; };
+		B3A62F662C454D08003552AE /* vendor-menu-vector.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F242C454D08003552AE /* vendor-menu-vector.svg */; };
+		B3A62F672C454D08003552AE /* arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F252C454D08003552AE /* arrow.svg */; };
+		B3A62F682C454D08003552AE /* Planogram.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F262C454D08003552AE /* Planogram.svg */; };
+		B3A62F692C454D08003552AE /* swap-vertical.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F272C454D08003552AE /* swap-vertical.svg */; };
+		B3A62F6A2C454D08003552AE /* funnel.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F282C454D08003552AE /* funnel.svg */; };
+		B3A62F6B2C454D08003552AE /* vendor-landing-vector.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F292C454D08003552AE /* vendor-landing-vector.svg */; };
+		B3A62F6C2C454D08003552AE /* Dropship.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3A62F2A2C454D08003552AE /* Dropship.svg */; };
 		B3B977D52C2BD8E9005C0F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B977D42C2BD8E9005C0F90 /* ViewController.swift */; };
 		B3D9215D2C2ADB96005A6998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9215C2C2ADB96005A6998 /* AppDelegate.swift */; };
 		B3D9215F2C2ADB96005A6998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D9215E2C2ADB96005A6998 /* SceneDelegate.swift */; };
@@ -44,72 +110,6 @@
 		B3D922082C2AE1C0005A6998 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D922072C2AE1C0005A6998 /* WebKit.framework */; };
 		B3D9220C2C2AE1EF005A6998 /* WindowsAzureMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9220B2C2AE1EF005A6998 /* WindowsAzureMessaging.xcframework */; };
 		B3D922102C2AE3DE005A6998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D9220F2C2AE3DE005A6998 /* Main.storyboard */; };
-		B3DE930F2C3D613D0051BAAB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C22C3D613D0051BAAB /* manifest.json */; };
-		B3DE93102C3D613D0051BAAB /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C32C3D613D0051BAAB /* index.html */; };
-		B3DE93112C3D613D0051BAAB /* 0.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C42C3D613D0051BAAB /* 0.js */; };
-		B3DE93122C3D613D0051BAAB /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C62C3D613D0051BAAB /* main.css */; };
-		B3DE93132C3D613D0051BAAB /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92C82C3D613D0051BAAB /* main.js */; };
-		B3DE93142C3D613D0051BAAB /* polyfills.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92CA2C3D613D0051BAAB /* polyfills.js */; };
-		B3DE93152C3D613D0051BAAB /* sw-toolbox.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92CB2C3D613D0051BAAB /* sw-toolbox.js */; };
-		B3DE93162C3D613D0051BAAB /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92CC2C3D613D0051BAAB /* vendor.js */; };
-		B3DE93172C3D613D0051BAAB /* service-worker.js in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92CF2C3D613D0051BAAB /* service-worker.js */; };
-		B3DE93182C3D613D0051BAAB /* ionicons.eot in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D02C3D613D0051BAAB /* ionicons.eot */; };
-		B3DE93192C3D613D0051BAAB /* ionicons.scss in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D12C3D613D0051BAAB /* ionicons.scss */; };
-		B3DE931A2C3D613D0051BAAB /* ionicons.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D22C3D613D0051BAAB /* ionicons.svg */; };
-		B3DE931B2C3D613D0051BAAB /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D32C3D613D0051BAAB /* ionicons.ttf */; };
-		B3DE931C2C3D613D0051BAAB /* ionicons.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D42C3D613D0051BAAB /* ionicons.woff */; };
-		B3DE931D2C3D613D0051BAAB /* ionicons.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D52C3D613D0051BAAB /* ionicons.woff2 */; };
-		B3DE931E2C3D613D0051BAAB /* noto-sans-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D62C3D613D0051BAAB /* noto-sans-bold.ttf */; };
-		B3DE931F2C3D613D0051BAAB /* noto-sans-bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D72C3D613D0051BAAB /* noto-sans-bold.woff */; };
-		B3DE93202C3D613D0051BAAB /* noto-sans-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D82C3D613D0051BAAB /* noto-sans-regular.ttf */; };
-		B3DE93212C3D613D0051BAAB /* noto-sans-regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92D92C3D613D0051BAAB /* noto-sans-regular.woff */; };
-		B3DE93222C3D613D0051BAAB /* noto-sans.scss in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DA2C3D613D0051BAAB /* noto-sans.scss */; };
-		B3DE93232C3D613D0051BAAB /* roboto-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DB2C3D613D0051BAAB /* roboto-bold.ttf */; };
-		B3DE93242C3D613D0051BAAB /* roboto-bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DC2C3D613D0051BAAB /* roboto-bold.woff */; };
-		B3DE93252C3D613D0051BAAB /* roboto-bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DD2C3D613D0051BAAB /* roboto-bold.woff2 */; };
-		B3DE93262C3D613D0051BAAB /* roboto-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DE2C3D613D0051BAAB /* roboto-light.ttf */; };
-		B3DE93272C3D613D0051BAAB /* roboto-light.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92DF2C3D613D0051BAAB /* roboto-light.woff */; };
-		B3DE93282C3D613D0051BAAB /* roboto-light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E02C3D613D0051BAAB /* roboto-light.woff2 */; };
-		B3DE93292C3D613D0051BAAB /* roboto-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E12C3D613D0051BAAB /* roboto-medium.ttf */; };
-		B3DE932A2C3D613D0051BAAB /* roboto-medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E22C3D613D0051BAAB /* roboto-medium.woff */; };
-		B3DE932B2C3D613D0051BAAB /* roboto-medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E32C3D613D0051BAAB /* roboto-medium.woff2 */; };
-		B3DE932C2C3D613D0051BAAB /* roboto-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E42C3D613D0051BAAB /* roboto-regular.ttf */; };
-		B3DE932D2C3D613D0051BAAB /* roboto-regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E52C3D613D0051BAAB /* roboto-regular.woff */; };
-		B3DE932E2C3D613D0051BAAB /* roboto-regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E62C3D613D0051BAAB /* roboto-regular.woff2 */; };
-		B3DE932F2C3D613D0051BAAB /* roboto.scss in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E72C3D613D0051BAAB /* roboto.scss */; };
-		B3DE93302C3D613D0051BAAB /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92E92C3D613D0051BAAB /* en.json */; };
-		B3DE93312C3D613D0051BAAB /* fr.json in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92EA2C3D613D0051BAAB /* fr.json */; };
-		B3DE93322C3D613D0051BAAB /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92EC2C3D613D0051BAAB /* favicon.ico */; };
-		B3DE93332C3D613D0051BAAB /* icon-false.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92EE2C3D613D0051BAAB /* icon-false.png */; };
-		B3DE93342C3D613D0051BAAB /* icon-map.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92EF2C3D613D0051BAAB /* icon-map.png */; };
-		B3DE93352C3D613D0051BAAB /* icon-route-end.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F02C3D613D0051BAAB /* icon-route-end.png */; };
-		B3DE93362C3D613D0051BAAB /* icon-route-start.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F12C3D613D0051BAAB /* icon-route-start.png */; };
-		B3DE93372C3D613D0051BAAB /* icon-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F22C3D613D0051BAAB /* icon-truck.png */; };
-		B3DE93382C3D613D0051BAAB /* icon-true.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F32C3D613D0051BAAB /* icon-true.png */; };
-		B3DE93392C3D613D0051BAAB /* iconfinder_truck.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F42C3D613D0051BAAB /* iconfinder_truck.svg */; };
-		B3DE933A2C3D613D0051BAAB /* landing_page_cart.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F52C3D613D0051BAAB /* landing_page_cart.svg */; };
-		B3DE933B2C3D613D0051BAAB /* landing_page_catalog.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F62C3D613D0051BAAB /* landing_page_catalog.svg */; };
-		B3DE933C2C3D613D0051BAAB /* landing_page_promotions.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F72C3D613D0051BAAB /* landing_page_promotions.svg */; };
-		B3DE933D2C3D613D0051BAAB /* landing_page_scan.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F82C3D613D0051BAAB /* landing_page_scan.svg */; };
-		B3DE933E2C3D613D0051BAAB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92F92C3D613D0051BAAB /* logo.png */; };
-		B3DE933F2C3D613D0051BAAB /* navbar_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FA2C3D613D0051BAAB /* navbar_background.jpg */; };
-		B3DE93402C3D613D0051BAAB /* no-deliveries.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FB2C3D613D0051BAAB /* no-deliveries.png */; };
-		B3DE93412C3D613D0051BAAB /* noun-bug-3233681.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FC2C3D613D0051BAAB /* noun-bug-3233681.png */; };
-		B3DE93422C3D613D0051BAAB /* orgill_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FD2C3D613D0051BAAB /* orgill_logo.png */; };
-		B3DE93432C3D613D0051BAAB /* Orgill-Logo-500x123.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FE2C3D613D0051BAAB /* Orgill-Logo-500x123.png */; };
-		B3DE93442C3D613D0051BAAB /* Orgill-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE92FF2C3D613D0051BAAB /* Orgill-Logo.png */; };
-		B3DE93452C3D613D0051BAAB /* Orgill-truck-locate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93002C3D613D0051BAAB /* Orgill-truck-locate.jpg */; };
-		B3DE93462C3D613D0051BAAB /* product_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93012C3D613D0051BAAB /* product_placeholder.png */; };
-		B3DE93472C3D613D0051BAAB /* truck-mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93022C3D613D0051BAAB /* truck-mobile.png */; };
-		B3DE93482C3D613D0051BAAB /* arrow.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93042C3D613D0051BAAB /* arrow.svg */; };
-		B3DE93492C3D613D0051BAAB /* Dropship.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93052C3D613D0051BAAB /* Dropship.svg */; };
-		B3DE934A2C3D613D0051BAAB /* funnel.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93062C3D613D0051BAAB /* funnel.svg */; };
-		B3DE934B2C3D613D0051BAAB /* Pallet.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93072C3D613D0051BAAB /* Pallet.svg */; };
-		B3DE934C2C3D613D0051BAAB /* Planogram.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93082C3D613D0051BAAB /* Planogram.svg */; };
-		B3DE934D2C3D613D0051BAAB /* swap-vertical.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE93092C3D613D0051BAAB /* swap-vertical.svg */; };
-		B3DE934E2C3D613D0051BAAB /* vendor-landing-vector.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE930A2C3D613D0051BAAB /* vendor-landing-vector.svg */; };
-		B3DE934F2C3D613D0051BAAB /* vendor-menu-vector.svg in Resources */ = {isa = PBXBuildFile; fileRef = B3DE930B2C3D613D0051BAAB /* vendor-menu-vector.svg */; };
-		B3DE93502C3D613D0051BAAB /* db.sql in Resources */ = {isa = PBXBuildFile; fileRef = B3DE930D2C3D613D0051BAAB /* db.sql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +133,76 @@
 		07B7FF05DC1EA88DD7DB4165 /* Pods-OZONE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZONE.debug.xcconfig"; path = "Target Support Files/Pods-OZONE/Pods-OZONE.debug.xcconfig"; sourceTree = "<group>"; };
 		18150FFDDBCB5382F0D4DB23 /* Pods-OZONE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZONE.release.xcconfig"; path = "Target Support Files/Pods-OZONE/Pods-OZONE.release.xcconfig"; sourceTree = "<group>"; };
 		80E72F4A194ED4479CD37BF9 /* Pods_OZONE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OZONE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A62EDE2C454D08003552AE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B3A62EDF2C454D08003552AE /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		B3A62EE02C454D08003552AE /* service-worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "service-worker.js"; sourceTree = "<group>"; };
+		B3A62EE22C454D08003552AE /* main.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = main.js.map; sourceTree = "<group>"; };
+		B3A62EE32C454D08003552AE /* main.css.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = main.css.map; sourceTree = "<group>"; };
+		B3A62EE42C454D08003552AE /* polyfills.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = polyfills.js; sourceTree = "<group>"; };
+		B3A62EE52C454D08003552AE /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		B3A62EE62C454D08003552AE /* vendor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vendor.js; sourceTree = "<group>"; };
+		B3A62EE72C454D08003552AE /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		B3A62EE82C454D08003552AE /* 0.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = 0.js.map; sourceTree = "<group>"; };
+		B3A62EE92C454D08003552AE /* 0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 0.js; sourceTree = "<group>"; };
+		B3A62EEA2C454D08003552AE /* sw-toolbox.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "sw-toolbox.js"; sourceTree = "<group>"; };
+		B3A62EEB2C454D08003552AE /* vendor.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = vendor.js.map; sourceTree = "<group>"; };
+		B3A62EED2C454D08003552AE /* db.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db.sql; sourceTree = "<group>"; };
+		B3A62EEF2C454D08003552AE /* orgill_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orgill_logo.png; sourceTree = "<group>"; };
+		B3A62EF02C454D08003552AE /* landing_page_promotions.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_promotions.svg; sourceTree = "<group>"; };
+		B3A62EF12C454D08003552AE /* icon-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-truck.png"; sourceTree = "<group>"; };
+		B3A62EF22C454D08003552AE /* icon-false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-false.png"; sourceTree = "<group>"; };
+		B3A62EF32C454D08003552AE /* icon-true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-true.png"; sourceTree = "<group>"; };
+		B3A62EF42C454D08003552AE /* noun-bug-3233681.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun-bug-3233681.png"; sourceTree = "<group>"; };
+		B3A62EF52C454D08003552AE /* icon-route-end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-route-end.png"; sourceTree = "<group>"; };
+		B3A62EF62C454D08003552AE /* navbar_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navbar_background.jpg; sourceTree = "<group>"; };
+		B3A62EF72C454D08003552AE /* landing_page_scan.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_scan.svg; sourceTree = "<group>"; };
+		B3A62EF82C454D08003552AE /* iconfinder_truck.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iconfinder_truck.svg; sourceTree = "<group>"; };
+		B3A62EF92C454D08003552AE /* landing_page_catalog.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_catalog.svg; sourceTree = "<group>"; };
+		B3A62EFA2C454D08003552AE /* truck-mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "truck-mobile.png"; sourceTree = "<group>"; };
+		B3A62EFB2C454D08003552AE /* Orgill-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orgill-Logo.png"; sourceTree = "<group>"; };
+		B3A62EFC2C454D08003552AE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		B3A62EFD2C454D08003552AE /* Orgill-truck-locate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Orgill-truck-locate.jpg"; sourceTree = "<group>"; };
+		B3A62EFE2C454D08003552AE /* landing_page_cart.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_cart.svg; sourceTree = "<group>"; };
+		B3A62EFF2C454D08003552AE /* no-deliveries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-deliveries.png"; sourceTree = "<group>"; };
+		B3A62F002C454D08003552AE /* Orgill-Logo-500x123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orgill-Logo-500x123.png"; sourceTree = "<group>"; };
+		B3A62F012C454D08003552AE /* product_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_placeholder.png; sourceTree = "<group>"; };
+		B3A62F022C454D08003552AE /* icon-route-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-route-start.png"; sourceTree = "<group>"; };
+		B3A62F032C454D08003552AE /* icon-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map.png"; sourceTree = "<group>"; };
+		B3A62F052C454D08003552AE /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		B3A62F072C454D08003552AE /* en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		B3A62F082C454D08003552AE /* fr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fr.json; sourceTree = "<group>"; };
+		B3A62F0A2C454D08003552AE /* roboto-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.ttf"; sourceTree = "<group>"; };
+		B3A62F0B2C454D08003552AE /* roboto-light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.woff2"; sourceTree = "<group>"; };
+		B3A62F0C2C454D08003552AE /* roboto-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.ttf"; sourceTree = "<group>"; };
+		B3A62F0D2C454D08003552AE /* roboto-regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.woff2"; sourceTree = "<group>"; };
+		B3A62F0E2C454D08003552AE /* roboto-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.woff"; sourceTree = "<group>"; };
+		B3A62F0F2C454D08003552AE /* noto-sans-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-bold.ttf"; sourceTree = "<group>"; };
+		B3A62F102C454D08003552AE /* ionicons.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.eot; sourceTree = "<group>"; };
+		B3A62F112C454D08003552AE /* noto-sans-bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-bold.woff"; sourceTree = "<group>"; };
+		B3A62F122C454D08003552AE /* roboto-light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.woff"; sourceTree = "<group>"; };
+		B3A62F132C454D08003552AE /* roboto-medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.woff2"; sourceTree = "<group>"; };
+		B3A62F142C454D08003552AE /* ionicons.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.woff; sourceTree = "<group>"; };
+		B3A62F152C454D08003552AE /* roboto-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.ttf"; sourceTree = "<group>"; };
+		B3A62F162C454D08003552AE /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		B3A62F172C454D08003552AE /* roboto-bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.woff2"; sourceTree = "<group>"; };
+		B3A62F182C454D08003552AE /* noto-sans.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "noto-sans.scss"; sourceTree = "<group>"; };
+		B3A62F192C454D08003552AE /* roboto.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = roboto.scss; sourceTree = "<group>"; };
+		B3A62F1A2C454D08003552AE /* noto-sans-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-regular.woff"; sourceTree = "<group>"; };
+		B3A62F1B2C454D08003552AE /* roboto-medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.woff"; sourceTree = "<group>"; };
+		B3A62F1C2C454D08003552AE /* roboto-bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.woff"; sourceTree = "<group>"; };
+		B3A62F1D2C454D08003552AE /* noto-sans-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-regular.ttf"; sourceTree = "<group>"; };
+		B3A62F1E2C454D08003552AE /* ionicons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ionicons.svg; sourceTree = "<group>"; };
+		B3A62F1F2C454D08003552AE /* roboto-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.ttf"; sourceTree = "<group>"; };
+		B3A62F202C454D08003552AE /* ionicons.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.woff2; sourceTree = "<group>"; };
+		B3A62F212C454D08003552AE /* ionicons.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ionicons.scss; sourceTree = "<group>"; };
+		B3A62F232C454D08003552AE /* Pallet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pallet.svg; sourceTree = "<group>"; };
+		B3A62F242C454D08003552AE /* vendor-menu-vector.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vendor-menu-vector.svg"; sourceTree = "<group>"; };
+		B3A62F252C454D08003552AE /* arrow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrow.svg; sourceTree = "<group>"; };
+		B3A62F262C454D08003552AE /* Planogram.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Planogram.svg; sourceTree = "<group>"; };
+		B3A62F272C454D08003552AE /* swap-vertical.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swap-vertical.svg"; sourceTree = "<group>"; };
+		B3A62F282C454D08003552AE /* funnel.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funnel.svg; sourceTree = "<group>"; };
+		B3A62F292C454D08003552AE /* vendor-landing-vector.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vendor-landing-vector.svg"; sourceTree = "<group>"; };
+		B3A62F2A2C454D08003552AE /* Dropship.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dropship.svg; sourceTree = "<group>"; };
 		B3B977D42C2BD8E9005C0F90 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = OZONE/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		B3D921592C2ADB96005A6998 /* OZONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OZONE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D9215C2C2ADB96005A6998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -193,76 +263,6 @@
 		B3D9220A2C2AE1E0005A6998 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B3D9220B2C2AE1EF005A6998 /* WindowsAzureMessaging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WindowsAzureMessaging.xcframework; path = "Pods/AzureNotificationHubs-iOS/WindowsAzureMessaging-SDK-Apple/WindowsAzureMessaging.xcframework"; sourceTree = "<group>"; };
 		B3D9220F2C2AE3DE005A6998 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B3DE92C22C3D613D0051BAAB /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		B3DE92C32C3D613D0051BAAB /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		B3DE92C42C3D613D0051BAAB /* 0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 0.js; sourceTree = "<group>"; };
-		B3DE92C52C3D613D0051BAAB /* 0.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = 0.js.map; sourceTree = "<group>"; };
-		B3DE92C62C3D613D0051BAAB /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
-		B3DE92C72C3D613D0051BAAB /* main.css.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = main.css.map; sourceTree = "<group>"; };
-		B3DE92C82C3D613D0051BAAB /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		B3DE92C92C3D613D0051BAAB /* main.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = main.js.map; sourceTree = "<group>"; };
-		B3DE92CA2C3D613D0051BAAB /* polyfills.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = polyfills.js; sourceTree = "<group>"; };
-		B3DE92CB2C3D613D0051BAAB /* sw-toolbox.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "sw-toolbox.js"; sourceTree = "<group>"; };
-		B3DE92CC2C3D613D0051BAAB /* vendor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vendor.js; sourceTree = "<group>"; };
-		B3DE92CD2C3D613D0051BAAB /* vendor.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = vendor.js.map; sourceTree = "<group>"; };
-		B3DE92CF2C3D613D0051BAAB /* service-worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "service-worker.js"; sourceTree = "<group>"; };
-		B3DE92D02C3D613D0051BAAB /* ionicons.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.eot; sourceTree = "<group>"; };
-		B3DE92D12C3D613D0051BAAB /* ionicons.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ionicons.scss; sourceTree = "<group>"; };
-		B3DE92D22C3D613D0051BAAB /* ionicons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ionicons.svg; sourceTree = "<group>"; };
-		B3DE92D32C3D613D0051BAAB /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
-		B3DE92D42C3D613D0051BAAB /* ionicons.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.woff; sourceTree = "<group>"; };
-		B3DE92D52C3D613D0051BAAB /* ionicons.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.woff2; sourceTree = "<group>"; };
-		B3DE92D62C3D613D0051BAAB /* noto-sans-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-bold.ttf"; sourceTree = "<group>"; };
-		B3DE92D72C3D613D0051BAAB /* noto-sans-bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-bold.woff"; sourceTree = "<group>"; };
-		B3DE92D82C3D613D0051BAAB /* noto-sans-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-regular.ttf"; sourceTree = "<group>"; };
-		B3DE92D92C3D613D0051BAAB /* noto-sans-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "noto-sans-regular.woff"; sourceTree = "<group>"; };
-		B3DE92DA2C3D613D0051BAAB /* noto-sans.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "noto-sans.scss"; sourceTree = "<group>"; };
-		B3DE92DB2C3D613D0051BAAB /* roboto-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.ttf"; sourceTree = "<group>"; };
-		B3DE92DC2C3D613D0051BAAB /* roboto-bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.woff"; sourceTree = "<group>"; };
-		B3DE92DD2C3D613D0051BAAB /* roboto-bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-bold.woff2"; sourceTree = "<group>"; };
-		B3DE92DE2C3D613D0051BAAB /* roboto-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.ttf"; sourceTree = "<group>"; };
-		B3DE92DF2C3D613D0051BAAB /* roboto-light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.woff"; sourceTree = "<group>"; };
-		B3DE92E02C3D613D0051BAAB /* roboto-light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-light.woff2"; sourceTree = "<group>"; };
-		B3DE92E12C3D613D0051BAAB /* roboto-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.ttf"; sourceTree = "<group>"; };
-		B3DE92E22C3D613D0051BAAB /* roboto-medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.woff"; sourceTree = "<group>"; };
-		B3DE92E32C3D613D0051BAAB /* roboto-medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-medium.woff2"; sourceTree = "<group>"; };
-		B3DE92E42C3D613D0051BAAB /* roboto-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.ttf"; sourceTree = "<group>"; };
-		B3DE92E52C3D613D0051BAAB /* roboto-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.woff"; sourceTree = "<group>"; };
-		B3DE92E62C3D613D0051BAAB /* roboto-regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roboto-regular.woff2"; sourceTree = "<group>"; };
-		B3DE92E72C3D613D0051BAAB /* roboto.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = roboto.scss; sourceTree = "<group>"; };
-		B3DE92E92C3D613D0051BAAB /* en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
-		B3DE92EA2C3D613D0051BAAB /* fr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fr.json; sourceTree = "<group>"; };
-		B3DE92EC2C3D613D0051BAAB /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
-		B3DE92EE2C3D613D0051BAAB /* icon-false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-false.png"; sourceTree = "<group>"; };
-		B3DE92EF2C3D613D0051BAAB /* icon-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-map.png"; sourceTree = "<group>"; };
-		B3DE92F02C3D613D0051BAAB /* icon-route-end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-route-end.png"; sourceTree = "<group>"; };
-		B3DE92F12C3D613D0051BAAB /* icon-route-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-route-start.png"; sourceTree = "<group>"; };
-		B3DE92F22C3D613D0051BAAB /* icon-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-truck.png"; sourceTree = "<group>"; };
-		B3DE92F32C3D613D0051BAAB /* icon-true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-true.png"; sourceTree = "<group>"; };
-		B3DE92F42C3D613D0051BAAB /* iconfinder_truck.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iconfinder_truck.svg; sourceTree = "<group>"; };
-		B3DE92F52C3D613D0051BAAB /* landing_page_cart.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_cart.svg; sourceTree = "<group>"; };
-		B3DE92F62C3D613D0051BAAB /* landing_page_catalog.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_catalog.svg; sourceTree = "<group>"; };
-		B3DE92F72C3D613D0051BAAB /* landing_page_promotions.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_promotions.svg; sourceTree = "<group>"; };
-		B3DE92F82C3D613D0051BAAB /* landing_page_scan.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = landing_page_scan.svg; sourceTree = "<group>"; };
-		B3DE92F92C3D613D0051BAAB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		B3DE92FA2C3D613D0051BAAB /* navbar_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navbar_background.jpg; sourceTree = "<group>"; };
-		B3DE92FB2C3D613D0051BAAB /* no-deliveries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-deliveries.png"; sourceTree = "<group>"; };
-		B3DE92FC2C3D613D0051BAAB /* noun-bug-3233681.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun-bug-3233681.png"; sourceTree = "<group>"; };
-		B3DE92FD2C3D613D0051BAAB /* orgill_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orgill_logo.png; sourceTree = "<group>"; };
-		B3DE92FE2C3D613D0051BAAB /* Orgill-Logo-500x123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orgill-Logo-500x123.png"; sourceTree = "<group>"; };
-		B3DE92FF2C3D613D0051BAAB /* Orgill-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orgill-Logo.png"; sourceTree = "<group>"; };
-		B3DE93002C3D613D0051BAAB /* Orgill-truck-locate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Orgill-truck-locate.jpg"; sourceTree = "<group>"; };
-		B3DE93012C3D613D0051BAAB /* product_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product_placeholder.png; sourceTree = "<group>"; };
-		B3DE93022C3D613D0051BAAB /* truck-mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "truck-mobile.png"; sourceTree = "<group>"; };
-		B3DE93042C3D613D0051BAAB /* arrow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrow.svg; sourceTree = "<group>"; };
-		B3DE93052C3D613D0051BAAB /* Dropship.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dropship.svg; sourceTree = "<group>"; };
-		B3DE93062C3D613D0051BAAB /* funnel.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = funnel.svg; sourceTree = "<group>"; };
-		B3DE93072C3D613D0051BAAB /* Pallet.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pallet.svg; sourceTree = "<group>"; };
-		B3DE93082C3D613D0051BAAB /* Planogram.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Planogram.svg; sourceTree = "<group>"; };
-		B3DE93092C3D613D0051BAAB /* swap-vertical.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swap-vertical.svg"; sourceTree = "<group>"; };
-		B3DE930A2C3D613D0051BAAB /* vendor-landing-vector.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vendor-landing-vector.svg"; sourceTree = "<group>"; };
-		B3DE930B2C3D613D0051BAAB /* vendor-menu-vector.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vendor-menu-vector.svg"; sourceTree = "<group>"; };
-		B3DE930D2C3D613D0051BAAB /* db.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db.sql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,16 +314,137 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B31C0C5D2C34213D0044B2A9 /* Ionic */ = {
+		B3A62EDD2C454D08003552AE /* Ionic */ = {
 			isa = PBXGroup;
 			children = (
-				B3DE930E2C3D613D0051BAAB /* assets */,
-				B3DE92CE2C3D613D0051BAAB /* build */,
-				B3DE92C32C3D613D0051BAAB /* index.html */,
-				B3DE92C22C3D613D0051BAAB /* manifest.json */,
-				B3DE92CF2C3D613D0051BAAB /* service-worker.js */,
+				B3A62EDE2C454D08003552AE /* index.html */,
+				B3A62EDF2C454D08003552AE /* manifest.json */,
+				B3A62EE02C454D08003552AE /* service-worker.js */,
+				B3A62EE12C454D08003552AE /* build */,
+				B3A62EEC2C454D08003552AE /* assets */,
 			);
 			path = Ionic;
+			sourceTree = "<group>";
+		};
+		B3A62EE12C454D08003552AE /* build */ = {
+			isa = PBXGroup;
+			children = (
+				B3A62EE22C454D08003552AE /* main.js.map */,
+				B3A62EE32C454D08003552AE /* main.css.map */,
+				B3A62EE42C454D08003552AE /* polyfills.js */,
+				B3A62EE52C454D08003552AE /* main.css */,
+				B3A62EE62C454D08003552AE /* vendor.js */,
+				B3A62EE72C454D08003552AE /* main.js */,
+				B3A62EE82C454D08003552AE /* 0.js.map */,
+				B3A62EE92C454D08003552AE /* 0.js */,
+				B3A62EEA2C454D08003552AE /* sw-toolbox.js */,
+				B3A62EEB2C454D08003552AE /* vendor.js.map */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		B3A62EEC2C454D08003552AE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				B3A62EED2C454D08003552AE /* db.sql */,
+				B3A62EEE2C454D08003552AE /* imgs */,
+				B3A62F042C454D08003552AE /* icon */,
+				B3A62F062C454D08003552AE /* i18n */,
+				B3A62F092C454D08003552AE /* fonts */,
+				B3A62F222C454D08003552AE /* vector */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		B3A62EEE2C454D08003552AE /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				B3A62EEF2C454D08003552AE /* orgill_logo.png */,
+				B3A62EF02C454D08003552AE /* landing_page_promotions.svg */,
+				B3A62EF12C454D08003552AE /* icon-truck.png */,
+				B3A62EF22C454D08003552AE /* icon-false.png */,
+				B3A62EF32C454D08003552AE /* icon-true.png */,
+				B3A62EF42C454D08003552AE /* noun-bug-3233681.png */,
+				B3A62EF52C454D08003552AE /* icon-route-end.png */,
+				B3A62EF62C454D08003552AE /* navbar_background.jpg */,
+				B3A62EF72C454D08003552AE /* landing_page_scan.svg */,
+				B3A62EF82C454D08003552AE /* iconfinder_truck.svg */,
+				B3A62EF92C454D08003552AE /* landing_page_catalog.svg */,
+				B3A62EFA2C454D08003552AE /* truck-mobile.png */,
+				B3A62EFB2C454D08003552AE /* Orgill-Logo.png */,
+				B3A62EFC2C454D08003552AE /* logo.png */,
+				B3A62EFD2C454D08003552AE /* Orgill-truck-locate.jpg */,
+				B3A62EFE2C454D08003552AE /* landing_page_cart.svg */,
+				B3A62EFF2C454D08003552AE /* no-deliveries.png */,
+				B3A62F002C454D08003552AE /* Orgill-Logo-500x123.png */,
+				B3A62F012C454D08003552AE /* product_placeholder.png */,
+				B3A62F022C454D08003552AE /* icon-route-start.png */,
+				B3A62F032C454D08003552AE /* icon-map.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		B3A62F042C454D08003552AE /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				B3A62F052C454D08003552AE /* favicon.ico */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		B3A62F062C454D08003552AE /* i18n */ = {
+			isa = PBXGroup;
+			children = (
+				B3A62F072C454D08003552AE /* en.json */,
+				B3A62F082C454D08003552AE /* fr.json */,
+			);
+			path = i18n;
+			sourceTree = "<group>";
+		};
+		B3A62F092C454D08003552AE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B3A62F0A2C454D08003552AE /* roboto-medium.ttf */,
+				B3A62F0B2C454D08003552AE /* roboto-light.woff2 */,
+				B3A62F0C2C454D08003552AE /* roboto-light.ttf */,
+				B3A62F0D2C454D08003552AE /* roboto-regular.woff2 */,
+				B3A62F0E2C454D08003552AE /* roboto-regular.woff */,
+				B3A62F0F2C454D08003552AE /* noto-sans-bold.ttf */,
+				B3A62F102C454D08003552AE /* ionicons.eot */,
+				B3A62F112C454D08003552AE /* noto-sans-bold.woff */,
+				B3A62F122C454D08003552AE /* roboto-light.woff */,
+				B3A62F132C454D08003552AE /* roboto-medium.woff2 */,
+				B3A62F142C454D08003552AE /* ionicons.woff */,
+				B3A62F152C454D08003552AE /* roboto-regular.ttf */,
+				B3A62F162C454D08003552AE /* ionicons.ttf */,
+				B3A62F172C454D08003552AE /* roboto-bold.woff2 */,
+				B3A62F182C454D08003552AE /* noto-sans.scss */,
+				B3A62F192C454D08003552AE /* roboto.scss */,
+				B3A62F1A2C454D08003552AE /* noto-sans-regular.woff */,
+				B3A62F1B2C454D08003552AE /* roboto-medium.woff */,
+				B3A62F1C2C454D08003552AE /* roboto-bold.woff */,
+				B3A62F1D2C454D08003552AE /* noto-sans-regular.ttf */,
+				B3A62F1E2C454D08003552AE /* ionicons.svg */,
+				B3A62F1F2C454D08003552AE /* roboto-bold.ttf */,
+				B3A62F202C454D08003552AE /* ionicons.woff2 */,
+				B3A62F212C454D08003552AE /* ionicons.scss */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		B3A62F222C454D08003552AE /* vector */ = {
+			isa = PBXGroup;
+			children = (
+				B3A62F232C454D08003552AE /* Pallet.svg */,
+				B3A62F242C454D08003552AE /* vendor-menu-vector.svg */,
+				B3A62F252C454D08003552AE /* arrow.svg */,
+				B3A62F262C454D08003552AE /* Planogram.svg */,
+				B3A62F272C454D08003552AE /* swap-vertical.svg */,
+				B3A62F282C454D08003552AE /* funnel.svg */,
+				B3A62F292C454D08003552AE /* vendor-landing-vector.svg */,
+				B3A62F2A2C454D08003552AE /* Dropship.svg */,
+			);
+			path = vector;
 			sourceTree = "<group>";
 		};
 		B3D921502C2ADB96005A6998 = {
@@ -351,7 +472,7 @@
 		B3D9215B2C2ADB96005A6998 /* OZONE */ = {
 			isa = PBXGroup;
 			children = (
-				B31C0C5D2C34213D0044B2A9 /* Ionic */,
+				B3A62EDD2C454D08003552AE /* Ionic */,
 				B3D9215C2C2ADB96005A6998 /* AppDelegate.swift */,
 				B3D921652C2ADB98005A6998 /* Assets.xcassets */,
 				B3D921B92C2ADDD7005A6998 /* Common */,
@@ -495,127 +616,6 @@
 			path = GCDWebServer;
 			sourceTree = "<group>";
 		};
-		B3DE92CE2C3D613D0051BAAB /* build */ = {
-			isa = PBXGroup;
-			children = (
-				B3DE92C42C3D613D0051BAAB /* 0.js */,
-				B3DE92C52C3D613D0051BAAB /* 0.js.map */,
-				B3DE92C62C3D613D0051BAAB /* main.css */,
-				B3DE92C72C3D613D0051BAAB /* main.css.map */,
-				B3DE92C82C3D613D0051BAAB /* main.js */,
-				B3DE92C92C3D613D0051BAAB /* main.js.map */,
-				B3DE92CA2C3D613D0051BAAB /* polyfills.js */,
-				B3DE92CB2C3D613D0051BAAB /* sw-toolbox.js */,
-				B3DE92CC2C3D613D0051BAAB /* vendor.js */,
-				B3DE92CD2C3D613D0051BAAB /* vendor.js.map */,
-			);
-			path = build;
-			sourceTree = "<group>";
-		};
-		B3DE92E82C3D613D0051BAAB /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				B3DE92D02C3D613D0051BAAB /* ionicons.eot */,
-				B3DE92D12C3D613D0051BAAB /* ionicons.scss */,
-				B3DE92D22C3D613D0051BAAB /* ionicons.svg */,
-				B3DE92D32C3D613D0051BAAB /* ionicons.ttf */,
-				B3DE92D42C3D613D0051BAAB /* ionicons.woff */,
-				B3DE92D52C3D613D0051BAAB /* ionicons.woff2 */,
-				B3DE92D62C3D613D0051BAAB /* noto-sans-bold.ttf */,
-				B3DE92D72C3D613D0051BAAB /* noto-sans-bold.woff */,
-				B3DE92D82C3D613D0051BAAB /* noto-sans-regular.ttf */,
-				B3DE92D92C3D613D0051BAAB /* noto-sans-regular.woff */,
-				B3DE92DA2C3D613D0051BAAB /* noto-sans.scss */,
-				B3DE92DB2C3D613D0051BAAB /* roboto-bold.ttf */,
-				B3DE92DC2C3D613D0051BAAB /* roboto-bold.woff */,
-				B3DE92DD2C3D613D0051BAAB /* roboto-bold.woff2 */,
-				B3DE92DE2C3D613D0051BAAB /* roboto-light.ttf */,
-				B3DE92DF2C3D613D0051BAAB /* roboto-light.woff */,
-				B3DE92E02C3D613D0051BAAB /* roboto-light.woff2 */,
-				B3DE92E12C3D613D0051BAAB /* roboto-medium.ttf */,
-				B3DE92E22C3D613D0051BAAB /* roboto-medium.woff */,
-				B3DE92E32C3D613D0051BAAB /* roboto-medium.woff2 */,
-				B3DE92E42C3D613D0051BAAB /* roboto-regular.ttf */,
-				B3DE92E52C3D613D0051BAAB /* roboto-regular.woff */,
-				B3DE92E62C3D613D0051BAAB /* roboto-regular.woff2 */,
-				B3DE92E72C3D613D0051BAAB /* roboto.scss */,
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
-		B3DE92EB2C3D613D0051BAAB /* i18n */ = {
-			isa = PBXGroup;
-			children = (
-				B3DE92E92C3D613D0051BAAB /* en.json */,
-				B3DE92EA2C3D613D0051BAAB /* fr.json */,
-			);
-			path = i18n;
-			sourceTree = "<group>";
-		};
-		B3DE92ED2C3D613D0051BAAB /* icon */ = {
-			isa = PBXGroup;
-			children = (
-				B3DE92EC2C3D613D0051BAAB /* favicon.ico */,
-			);
-			path = icon;
-			sourceTree = "<group>";
-		};
-		B3DE93032C3D613D0051BAAB /* imgs */ = {
-			isa = PBXGroup;
-			children = (
-				B3DE92EE2C3D613D0051BAAB /* icon-false.png */,
-				B3DE92EF2C3D613D0051BAAB /* icon-map.png */,
-				B3DE92F02C3D613D0051BAAB /* icon-route-end.png */,
-				B3DE92F12C3D613D0051BAAB /* icon-route-start.png */,
-				B3DE92F22C3D613D0051BAAB /* icon-truck.png */,
-				B3DE92F32C3D613D0051BAAB /* icon-true.png */,
-				B3DE92F42C3D613D0051BAAB /* iconfinder_truck.svg */,
-				B3DE92F52C3D613D0051BAAB /* landing_page_cart.svg */,
-				B3DE92F62C3D613D0051BAAB /* landing_page_catalog.svg */,
-				B3DE92F72C3D613D0051BAAB /* landing_page_promotions.svg */,
-				B3DE92F82C3D613D0051BAAB /* landing_page_scan.svg */,
-				B3DE92F92C3D613D0051BAAB /* logo.png */,
-				B3DE92FA2C3D613D0051BAAB /* navbar_background.jpg */,
-				B3DE92FB2C3D613D0051BAAB /* no-deliveries.png */,
-				B3DE92FC2C3D613D0051BAAB /* noun-bug-3233681.png */,
-				B3DE92FD2C3D613D0051BAAB /* orgill_logo.png */,
-				B3DE92FE2C3D613D0051BAAB /* Orgill-Logo-500x123.png */,
-				B3DE92FF2C3D613D0051BAAB /* Orgill-Logo.png */,
-				B3DE93002C3D613D0051BAAB /* Orgill-truck-locate.jpg */,
-				B3DE93012C3D613D0051BAAB /* product_placeholder.png */,
-				B3DE93022C3D613D0051BAAB /* truck-mobile.png */,
-			);
-			path = imgs;
-			sourceTree = "<group>";
-		};
-		B3DE930C2C3D613D0051BAAB /* vector */ = {
-			isa = PBXGroup;
-			children = (
-				B3DE93042C3D613D0051BAAB /* arrow.svg */,
-				B3DE93052C3D613D0051BAAB /* Dropship.svg */,
-				B3DE93062C3D613D0051BAAB /* funnel.svg */,
-				B3DE93072C3D613D0051BAAB /* Pallet.svg */,
-				B3DE93082C3D613D0051BAAB /* Planogram.svg */,
-				B3DE93092C3D613D0051BAAB /* swap-vertical.svg */,
-				B3DE930A2C3D613D0051BAAB /* vendor-landing-vector.svg */,
-				B3DE930B2C3D613D0051BAAB /* vendor-menu-vector.svg */,
-			);
-			path = vector;
-			sourceTree = "<group>";
-		};
-		B3DE930E2C3D613D0051BAAB /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				B3DE92E82C3D613D0051BAAB /* fonts */,
-				B3DE92EB2C3D613D0051BAAB /* i18n */,
-				B3DE92ED2C3D613D0051BAAB /* icon */,
-				B3DE93032C3D613D0051BAAB /* imgs */,
-				B3DE930C2C3D613D0051BAAB /* vector */,
-				B3DE930D2C3D613D0051BAAB /* db.sql */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -721,77 +721,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3DE93172C3D613D0051BAAB /* service-worker.js in Resources */,
-				B3DE93102C3D613D0051BAAB /* index.html in Resources */,
-				B3DE93402C3D613D0051BAAB /* no-deliveries.png in Resources */,
-				B3DE93472C3D613D0051BAAB /* truck-mobile.png in Resources */,
-				B3DE93482C3D613D0051BAAB /* arrow.svg in Resources */,
-				B3DE932C2C3D613D0051BAAB /* roboto-regular.ttf in Resources */,
-				B3DE93302C3D613D0051BAAB /* en.json in Resources */,
-				B3DE93432C3D613D0051BAAB /* Orgill-Logo-500x123.png in Resources */,
-				B3DE933D2C3D613D0051BAAB /* landing_page_scan.svg in Resources */,
-				B3DE932B2C3D613D0051BAAB /* roboto-medium.woff2 in Resources */,
-				B3DE931A2C3D613D0051BAAB /* ionicons.svg in Resources */,
-				B3DE93372C3D613D0051BAAB /* icon-truck.png in Resources */,
+				B3A62F5A2C454D08003552AE /* roboto-bold.woff2 in Resources */,
+				B3A62F332C454D08003552AE /* sw-toolbox.js in Resources */,
+				B3A62F2E2C454D08003552AE /* polyfills.js in Resources */,
+				B3A62F4F2C454D08003552AE /* roboto-light.ttf in Resources */,
+				B3A62F442C454D08003552AE /* landing_page_cart.svg in Resources */,
 				B3D921662C2ADB98005A6998 /* Assets.xcassets in Resources */,
-				B3DE93122C3D613D0051BAAB /* main.css in Resources */,
-				B3DE93362C3D613D0051BAAB /* icon-route-start.png in Resources */,
-				B3DE934A2C3D613D0051BAAB /* funnel.svg in Resources */,
-				B3DE93322C3D613D0051BAAB /* favicon.ico in Resources */,
-				B3DE93242C3D613D0051BAAB /* roboto-bold.woff in Resources */,
-				B3DE93442C3D613D0051BAAB /* Orgill-Logo.png in Resources */,
-				B3DE93352C3D613D0051BAAB /* icon-route-end.png in Resources */,
-				B3DE93492C3D613D0051BAAB /* Dropship.svg in Resources */,
-				B3DE93332C3D613D0051BAAB /* icon-false.png in Resources */,
-				B3DE93162C3D613D0051BAAB /* vendor.js in Resources */,
-				B3DE931B2C3D613D0051BAAB /* ionicons.ttf in Resources */,
-				B3DE93212C3D613D0051BAAB /* noto-sans-regular.woff in Resources */,
-				B3DE93202C3D613D0051BAAB /* noto-sans-regular.ttf in Resources */,
-				B3DE93382C3D613D0051BAAB /* icon-true.png in Resources */,
-				B3DE931C2C3D613D0051BAAB /* ionicons.woff in Resources */,
+				B3A62F302C454D08003552AE /* vendor.js in Resources */,
+				B3A62F312C454D08003552AE /* main.js in Resources */,
+				B3A62F612C454D08003552AE /* ionicons.svg in Resources */,
+				B3A62F412C454D08003552AE /* Orgill-Logo.png in Resources */,
+				B3A62F5E2C454D08003552AE /* roboto-medium.woff in Resources */,
+				B3A62F2C2C454D08003552AE /* manifest.json in Resources */,
+				B3A62F5B2C454D08003552AE /* noto-sans.scss in Resources */,
+				B3A62F4D2C454D08003552AE /* roboto-medium.ttf in Resources */,
 				B3D922102C2AE3DE005A6998 /* Main.storyboard in Resources */,
-				B3DE93422C3D613D0051BAAB /* orgill_logo.png in Resources */,
-				B3DE932F2C3D613D0051BAAB /* roboto.scss in Resources */,
+				B3A62F512C454D08003552AE /* roboto-regular.woff in Resources */,
+				B3A62F5C2C454D08003552AE /* roboto.scss in Resources */,
+				B3A62F532C454D08003552AE /* ionicons.eot in Resources */,
+				B3A62F5F2C454D08003552AE /* roboto-bold.woff in Resources */,
+				B3A62F6B2C454D08003552AE /* vendor-landing-vector.svg in Resources */,
+				B3A62F432C454D08003552AE /* Orgill-truck-locate.jpg in Resources */,
 				B3D921F02C2ADE15005A6998 /* weatcb_notifi_tone.caf in Resources */,
-				B3DE93412C3D613D0051BAAB /* noun-bug-3233681.png in Resources */,
-				B3DE93232C3D613D0051BAAB /* roboto-bold.ttf in Resources */,
-				B3DE93502C3D613D0051BAAB /* db.sql in Resources */,
-				B3DE931E2C3D613D0051BAAB /* noto-sans-bold.ttf in Resources */,
-				B3DE931D2C3D613D0051BAAB /* ionicons.woff2 in Resources */,
-				B3DE933C2C3D613D0051BAAB /* landing_page_promotions.svg in Resources */,
-				B3DE933E2C3D613D0051BAAB /* logo.png in Resources */,
-				B3DE934B2C3D613D0051BAAB /* Pallet.svg in Resources */,
-				B3DE93292C3D613D0051BAAB /* roboto-medium.ttf in Resources */,
-				B3DE933A2C3D613D0051BAAB /* landing_page_cart.svg in Resources */,
-				B3DE93342C3D613D0051BAAB /* icon-map.png in Resources */,
+				B3A62F492C454D08003552AE /* icon-map.png in Resources */,
+				B3A62F4C2C454D08003552AE /* fr.json in Resources */,
+				B3A62F522C454D08003552AE /* noto-sans-bold.ttf in Resources */,
+				B3A62F502C454D08003552AE /* roboto-regular.woff2 in Resources */,
+				B3A62F562C454D08003552AE /* roboto-medium.woff2 in Resources */,
+				B3A62F3D2C454D08003552AE /* landing_page_scan.svg in Resources */,
+				B3A62F622C454D08003552AE /* roboto-bold.ttf in Resources */,
+				B3A62F632C454D08003552AE /* ionicons.woff2 in Resources */,
+				B3A62F372C454D08003552AE /* icon-truck.png in Resources */,
+				B3A62F2D2C454D08003552AE /* service-worker.js in Resources */,
+				B3A62F3B2C454D08003552AE /* icon-route-end.png in Resources */,
+				B3A62F4B2C454D08003552AE /* en.json in Resources */,
+				B3A62F3C2C454D08003552AE /* navbar_background.jpg in Resources */,
+				B3A62F672C454D08003552AE /* arrow.svg in Resources */,
+				B3A62F592C454D08003552AE /* ionicons.ttf in Resources */,
+				B3A62F602C454D08003552AE /* noto-sans-regular.ttf in Resources */,
+				B3A62F3F2C454D08003552AE /* landing_page_catalog.svg in Resources */,
+				B3A62F642C454D08003552AE /* ionicons.scss in Resources */,
+				B3A62F5D2C454D08003552AE /* noto-sans-regular.woff in Resources */,
+				B3A62F6A2C454D08003552AE /* funnel.svg in Resources */,
+				B3A62F392C454D08003552AE /* icon-true.png in Resources */,
+				B3A62F422C454D08003552AE /* logo.png in Resources */,
+				B3A62F662C454D08003552AE /* vendor-menu-vector.svg in Resources */,
+				B3A62F362C454D08003552AE /* landing_page_promotions.svg in Resources */,
+				B3A62F652C454D08003552AE /* Pallet.svg in Resources */,
+				B3A62F6C2C454D08003552AE /* Dropship.svg in Resources */,
+				B3A62F4A2C454D08003552AE /* favicon.ico in Resources */,
+				B3A62F542C454D08003552AE /* noto-sans-bold.woff in Resources */,
+				B3A62F2F2C454D08003552AE /* main.css in Resources */,
+				B3A62F682C454D08003552AE /* Planogram.svg in Resources */,
+				B3A62F582C454D08003552AE /* roboto-regular.ttf in Resources */,
+				B3A62F382C454D08003552AE /* icon-false.png in Resources */,
+				B3A62F342C454D08003552AE /* db.sql in Resources */,
+				B3A62F472C454D08003552AE /* product_placeholder.png in Resources */,
+				B3A62F692C454D08003552AE /* swap-vertical.svg in Resources */,
+				B3A62F352C454D08003552AE /* orgill_logo.png in Resources */,
+				B3A62F2B2C454D08003552AE /* index.html in Resources */,
+				B3A62F322C454D08003552AE /* 0.js in Resources */,
+				B3A62F572C454D08003552AE /* ionicons.woff in Resources */,
+				B3A62F452C454D08003552AE /* no-deliveries.png in Resources */,
+				B3A62F4E2C454D08003552AE /* roboto-light.woff2 in Resources */,
+				B3A62F482C454D08003552AE /* icon-route-start.png in Resources */,
+				B3A62F3A2C454D08003552AE /* noun-bug-3233681.png in Resources */,
 				B3D921692C2ADB98005A6998 /* Base in Resources */,
-				B3DE93452C3D613D0051BAAB /* Orgill-truck-locate.jpg in Resources */,
-				B3DE934E2C3D613D0051BAAB /* vendor-landing-vector.svg in Resources */,
-				B3DE93222C3D613D0051BAAB /* noto-sans.scss in Resources */,
-				B3DE93312C3D613D0051BAAB /* fr.json in Resources */,
-				B3DE931F2C3D613D0051BAAB /* noto-sans-bold.woff in Resources */,
-				B3DE933B2C3D613D0051BAAB /* landing_page_catalog.svg in Resources */,
-				B3DE934C2C3D613D0051BAAB /* Planogram.svg in Resources */,
-				B3DE93272C3D613D0051BAAB /* roboto-light.woff in Resources */,
-				B3DE93142C3D613D0051BAAB /* polyfills.js in Resources */,
-				B3DE933F2C3D613D0051BAAB /* navbar_background.jpg in Resources */,
-				B3DE932E2C3D613D0051BAAB /* roboto-regular.woff2 in Resources */,
-				B3DE934D2C3D613D0051BAAB /* swap-vertical.svg in Resources */,
-				B3DE93192C3D613D0051BAAB /* ionicons.scss in Resources */,
-				B3DE930F2C3D613D0051BAAB /* manifest.json in Resources */,
-				B3DE93252C3D613D0051BAAB /* roboto-bold.woff2 in Resources */,
-				B3DE932D2C3D613D0051BAAB /* roboto-regular.woff in Resources */,
-				B3DE93282C3D613D0051BAAB /* roboto-light.woff2 in Resources */,
+				B3A62F552C454D08003552AE /* roboto-light.woff in Resources */,
+				B3A62F3E2C454D08003552AE /* iconfinder_truck.svg in Resources */,
 				B3D921F42C2ADE15005A6998 /* SplaceView.xib in Resources */,
-				B3DE932A2C3D613D0051BAAB /* roboto-medium.woff in Resources */,
-				B3DE93112C3D613D0051BAAB /* 0.js in Resources */,
-				B3DE93462C3D613D0051BAAB /* product_placeholder.png in Resources */,
-				B3DE93392C3D613D0051BAAB /* iconfinder_truck.svg in Resources */,
-				B3DE93152C3D613D0051BAAB /* sw-toolbox.js in Resources */,
-				B3DE934F2C3D613D0051BAAB /* vendor-menu-vector.svg in Resources */,
-				B3DE93132C3D613D0051BAAB /* main.js in Resources */,
-				B3DE93262C3D613D0051BAAB /* roboto-light.ttf in Resources */,
-				B3DE93182C3D613D0051BAAB /* ionicons.eot in Resources */,
+				B3A62F462C454D08003552AE /* Orgill-Logo-500x123.png in Resources */,
+				B3A62F402C454D08003552AE /* truck-mobile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1042,7 +1042,7 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution: Orgill, Inc (N2WM8ZSY3H)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Orgill, Inc (N2WM8ZSY3H)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = N2WM8ZSY3H;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N2WM8ZSY3H;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1086,7 +1086,7 @@
 				CODE_SIGN_IDENTITY = "Apple Distribution: Orgill, Inc (N2WM8ZSY3H)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Orgill, Inc (N2WM8ZSY3H)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = N2WM8ZSY3H;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N2WM8ZSY3H;
 				GENERATE_INFOPLIST_FILE = YES;
