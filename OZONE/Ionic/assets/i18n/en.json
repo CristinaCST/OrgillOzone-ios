@@ -143,6 +143,8 @@
   "menu_scanner_title": "SCAN BARCODE",
   "menu_search_code": "Enter Code",
   "menu_search_scan": "Scan Barcode",
+  "zebra_device_detected": "Looks like you’re on an Orgill Zebra scanner. You can enable the scanner by using one of the yellow buttons. Or you can use the camera by pressing the button below.",
+  "using_camera_scanner": "You can scan products using the camera by pressing the button below.",
   "menu_settings": "Settings",
   "menu_shopping_lists": "My Shopping Lists",
   "menu_shopping_lists_new": "New Shopping List",
@@ -294,6 +296,7 @@
   "shopping_list_empty_message": "Shopping list is empty.",
   "shopping_list_empty_title": "Empty list",
   "shopping_list_existing_product": "The product is already added in this list.",
+  "shopping_list_item_in_orgill_cart": "Items already exist in the Orgill.com Shopping Cart",
   "shopping_list_expired_items_message": "You have items in your cart on expired programs.  \n\nPlease review these items.",
   "shopping_list_expired_items_title": "Updated Prices",
   "shopping_list_items_label": "Items",
@@ -311,7 +314,7 @@
   "something_went_wrong": "Something went wrong...",
   "start_date": "Start date",
   "start_ordering": "Start Ordering",
-  "start_scan": "Start Scan",
+  "start_scan": "Start Camera Scan",
   "summary_tab": "Details & Summary",
   "support_code_hint": "Support code",
   "terms": "Terms",
@@ -339,5 +342,7 @@
   "report_form_ship_to_no": "Ship to number",
   "report_form_details": "Issue details",
   "report_form_date": "Date",
-  "report_form_send_form": "Send report"
+  "report_form_send_form": "Send report",
+  "planograms_shopping_cart": "Planograms Shopping Cart",
+  "pallets_shopping_cart": "Pallets Shopping Cart"
 }

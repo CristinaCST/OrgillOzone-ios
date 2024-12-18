@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 938:
+/***/ 944:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_languages__ = __webpack_require__(939);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_languages__ = __webpack_require__(945);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -40,7 +40,7 @@ var ModalLanguagesPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 939:
+/***/ 945:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -81,7 +81,7 @@ var ModalLanguagesPage = /** @class */ (function () {
     };
     ModalLanguagesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-modal-languages',template:/*ion-inline-start:"/Users/kevinbaldha/Desktop/Techvoot/Projects/LiveProject/IonicProjects/Orgill-Ionic-new_services/src/pages/settings/modal-languages/modal-languages.html"*/'<ion-header>\n    <ion-navbar>\n            <ion-buttons right>\n                <button id="closeBtn" ion-button icon-only (click)="closeModal()">\n                    {{"close" | translate}} \n                </button>\n            </ion-buttons>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-list radio-group>\n        <ion-item>\n                    <ion-label>English</ion-label>\n                    <ion-radio [checked]="translate.currentLang == \'en\'"  (click)="switchLanguage(\'en\')"></ion-radio>\n        </ion-item>\n        <ion-item>\n                    <ion-label>French</ion-label>\n                    <ion-radio [checked]="translate.currentLang == \'fr\'" (click)="switchLanguage(\'fr\')"></ion-radio>\n        </ion-item>\n    </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/kevinbaldha/Desktop/Techvoot/Projects/LiveProject/IonicProjects/Orgill-Ionic-new_services/src/pages/settings/modal-languages/modal-languages.html"*/
+            selector: 'page-modal-languages',template:/*ion-inline-start:"/Users/cristina/Projects/Orgill/Orgill-Ionic/src/pages/settings/modal-languages/modal-languages.html"*/'<ion-header>\n    <ion-navbar>\n            <ion-buttons right>\n                <button id="closeBtn" ion-button icon-only (click)="closeModal()">\n                    {{"close" | translate}} \n                </button>\n            </ion-buttons>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-list radio-group>\n        <ion-item>\n                    <ion-label>English</ion-label>\n                    <ion-radio [checked]="translate.currentLang == \'en\'"  (click)="switchLanguage(\'en\')"></ion-radio>\n        </ion-item>\n        <ion-item>\n                    <ion-label>French</ion-label>\n                    <ion-radio [checked]="translate.currentLang == \'fr\'" (click)="switchLanguage(\'fr\')"></ion-radio>\n        </ion-item>\n    </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/cristina/Projects/Orgill/Orgill-Ionic/src/pages/settings/modal-languages/modal-languages.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ngx_translate_core__["c" /* TranslateService */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["r" /* ViewController */],
