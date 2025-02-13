@@ -154,6 +154,13 @@ class ViewController: UIViewController,  ScannerReturnProtocol{
         let scannerScript = WKUserScript(source: scriptScanner, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
         contentController.addUserScript(scannerScript)
         
+        //Script For Logout
+        configuration.userContentController.add(self, name: "clearWebViewDataOnLogout")
+        let scriptLogout = "javascript:window.ozone.clearWebViewDataOnLogout = function() { window.webkit.messageHandlers.clearWebViewDataOnLogout.postMessage('invoke')}"
+        let logoutScript = WKUserScript(source: scriptLogout, injectionTime: .atDocumentEnd, forMainFrameOnly: true)
+        contentController.addUserScript(logoutScript)
+
+        
         //Script For Push Notification On
         configuration.userContentController.add(self, name: "pushNotificationOn")
         let scriptPushOn = "javascript:window.ozone.pushNotificationOn = function() { window.webkit.messageHandlers.pushNotificationOn.postMessage('invoke')}"
@@ -296,6 +303,10 @@ class ViewController: UIViewController,  ScannerReturnProtocol{
         }
     }
     
+    func logout(){
+        webView.reload();
+    }
+    
 //    func openCamera(){
 //        let vc = UIImagePickerController()
 //        vc.sourceType = .camera
@@ -337,11 +348,11 @@ extension ViewController: WKNavigationDelegate, WKUIDelegate, WKScriptMessageHan
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         
-        if traitCollection.userInterfaceStyle == .light {
-            evaluateWithJavaScriptExpression(jsExpression: "this.window.ozone.setDarkMode(false);")
-        } else {
-            evaluateWithJavaScriptExpression(jsExpression: "this.window.ozone.setDarkMode(true);")
-        }
+//        if traitCollection.userInterfaceStyle == .light {
+//            evaluateWithJavaScriptExpression(jsExpression: "this.window.ozone.setDarkMode(false);")
+//        } else {
+//            evaluateWithJavaScriptExpression(jsExpression: "this.window.ozone.setDarkMode(true);")
+//        }
         
         //Call JS function for set device token
 //        evaluateWithJavaScriptExpression(jsExpression: "this.window.ozone.setDeviceToken('\(COMMON.getDeviceToken())');")
@@ -371,6 +382,8 @@ extension ViewController: WKNavigationDelegate, WKUIDelegate, WKScriptMessageHan
             onCameraPermissionAllow()
         case "getAppDetails":
             setAppDetails()
+        case "clearWebViewDataOnLogout":
+            logout()
 //        case "openCamera":
 //            openCamera()
 //        case "closeApp":

@@ -96,7 +96,7 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
         // Add scanner overlay
         addScannerOverlay()
         
-        // Define scan area frame
+        // Define scan area frameop
         let scanAreaWidth = view.frame.width * 0.8
         let scanAreaHeight: CGFloat = 2.0
         let scanAreaX = view.frame.width / 2 - scanAreaWidth / 2
